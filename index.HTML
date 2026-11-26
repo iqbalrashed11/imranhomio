@@ -1,0 +1,2857 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HUNDRED SECURITY | Laser Glow Queen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- META PIXEL -->
+  <script>
+    var PIXEL_ID='XXXXXXXXXXXXXXXXX';
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+    (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init',PIXEL_ID);fbq('track','PageView');
+  </script>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{
+      --red:#c46979;--red2:#d98292;--red3:#9e4d5c;
+      --pink:#fbcad5;--rose:#ffd1dc;--rose2:#fff0f3;
+      --gold:#f39c12;--dark:#4a282f;--text:#5c3941;
+      --gray:#8e6b72;--light:#fff8f9;--white:#fff;
+      --shadow:0 8px 32px rgba(196,105,121,.15);
+    }
+    .old-price{text-decoration:line-through;color:#a0a0a0;font-size:12px;margin-right:4px;font-weight:600}
+    .offer-badge{background:#c46979;color:#fff;font-size:10px;padding:2px 7px;border-radius:10px;font-weight:700;display:inline-block;margin-left:4px}
+    .discuss-price{font-size:15px;color:#c46979;font-weight:800}
+    .sc-img img{width:100%;height:100%;object-fit:cover;display:block}
+    .logo-img{height:46px;width:auto;border-radius:8px;object-fit:contain}
+    html{scroll-behavior:smooth}
+    body{font-family:'Hind Siliguri',sans-serif;color:var(--text);background:#fff;overflow-x:hidden}
+
+    /* ===== TOP BAR ===== */
+    .topbar{
+      background:var(--red);color:#fff;text-align:center;
+      font-size:13px;padding:9px 24px;display:flex;align-items:center;justify-content:center;gap:8px;
+    }
+    .topbar a{color:#ffd700;text-decoration:none;font-weight:800;margin-left:8px}
+
+    /* ===== NAVBAR ===== */
+    nav{background:#fff;border-bottom:1.5px solid #fce4ec;position:sticky;top:0;z-index:999;box-shadow:0 2px 16px rgba(192,57,43,.08)}
+    .nav-inner{max-width:1300px;margin:auto;padding:0 24px;display:flex;align-items:center;height:66px}
+    .logo{font-family:'Inter',sans-serif;font-size:22px;font-weight:900;color:var(--dark);text-decoration:none;letter-spacing:-1px;margin-right:36px;display:flex;align-items:center;gap:8px}
+    .logo-mark{width:36px;height:36px;background:linear-gradient(135deg,var(--red),var(--red2));border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px}
+    .nav-links{display:flex;list-style:none;gap:2px;flex:1}
+    .nav-links a{text-decoration:none;color:var(--text);font-size:14px;font-weight:600;padding:8px 14px;border-radius:8px;transition:all .2s}
+    .nav-links a:hover,.nav-links a.active{color:var(--red)}
+    .nav-links a.active{border-bottom:2px solid var(--red)}
+    .nav-right{display:flex;align-items:center;gap:10px;margin-left:auto}
+    .nav-phone{display:flex;align-items:center;gap:7px;color:var(--red);font-size:13px;font-weight:700;text-decoration:none}
+    .btn-wa{background:#25d366;color:#fff;padding:8px 16px;border-radius:50px;font-size:13px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:6px;transition:all .2s}
+    .btn-wa:hover{background:#1db954;transform:translateY(-1px)}
+    .btn-appt{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;padding:8px 18px;border-radius:50px;font-size:13px;font-weight:700;text-decoration:none;display:flex;align-items:center;gap:6px;box-shadow:0 4px 14px rgba(192,57,43,.35);transition:all .2s}
+    .btn-appt:hover{transform:translateY(-1px);box-shadow:0 6px 20px rgba(192,57,43,.5)}
+    .ham{display:none;font-size:22px;cursor:pointer;color:var(--red);margin-left:12px}
+
+    /* ===== HERO — Chicvow layout ===== */
+    #hero{
+      background:linear-gradient(135deg,#ffd1dc 0%,#fbcad5 50%,#f8b8c7 100%);
+      min-height:88vh;display:flex;align-items:center;
+      position:relative;overflow:hidden;
+    }
+    .hc{position:absolute;border-radius:50%;background:rgba(255,255,255,.3)}
+    .hc1{width:650px;height:650px;right:-100px;bottom:-120px}
+    .hc2{width:320px;height:320px;right:260px;top:-90px;background:rgba(255,255,255,.2)}
+    .hc3{width:160px;height:160px;left:4%;top:12%}
+    .hero-wrap{max-width:1300px;margin:auto;padding:50px 24px;display:grid;grid-template-columns:1.1fr 1fr;gap:30px;align-items:center;position:relative;z-index:1}
+
+    /* Hero Left */
+    .h-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.7);border:1px solid rgba(196,105,121,.3);border-radius:50px;padding:7px 18px;margin-bottom:22px;color:#5c3941;font-size:13px;font-weight:600}
+    .h-badge .dot{width:8px;height:8px;border-radius:50%;background:#c46979;display:inline-block}
+    .h-h1{font-family:'Inter',sans-serif;font-size:56px;font-weight:900;color:#5c3941;line-height:1.08;letter-spacing:-1.5px;margin-bottom:14px}
+    .h-h1 em{font-style:normal;color:#c46979;background:none;-webkit-text-fill-color:initial}
+    .h-sub{font-size:16px;color:#6b444c;line-height:1.8;max-width:480px;margin-bottom:34px;font-weight:500}
+    .h-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:36px}
+    .hb1{background:#fff;color:var(--red);padding:14px 30px;border-radius:50px;font-weight:800;font-size:15px;text-decoration:none;display:flex;align-items:center;gap:8px;box-shadow:0 8px 28px rgba(0,0,0,.2);transition:all .3s;font-family:'Inter',sans-serif}
+    .hb1:hover{transform:translateY(-3px);box-shadow:0 14px 36px rgba(0,0,0,.28)}
+    .hb2{border:2px solid rgba(255,255,255,.55);color:#fff;padding:14px 26px;border-radius:50px;font-weight:600;font-size:15px;text-decoration:none;display:flex;align-items:center;gap:8px;transition:all .2s}
+    .hb2:hover{background:rgba(255,255,255,.12)}
+    .h-proof{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:60px;padding:10px 20px;width:fit-content}
+    .pa{display:flex}.av{width:32px;height:32px;border-radius:50%;border:2px solid rgba(255,255,255,.8);background:linear-gradient(135deg,#4ade80,#059669);display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700;margin-left:-6px}
+    .av:first-child{margin-left:0}
+    .pt{font-size:12px;color:rgba(255,255,255,.85)}.pt .stars{color:#fbbf24;font-size:13px;display:block}
+
+    /* Hero Right */
+    .hero-right{display:flex;flex-direction:column;align-items:flex-end;gap:14px}
+    .main-card{background:#fff;border-radius:28px;width:100%;max-width:400px;box-shadow:0 28px 70px rgba(0,0,0,.35);overflow:hidden}
+    .mc-top{height:220px;background:linear-gradient(135deg,#fce4ec,#f8bbd9);display:flex;align-items:center;justify-content:center;font-size:90px;position:relative}
+    .mc-label{position:absolute;bottom:14px;left:14px;background:var(--red);color:#fff;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:700}
+    .mc-hot{position:absolute;top:14px;right:14px;background:#ef4444;color:#fff;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:700}
+    .mc-body{padding:18px 20px}
+    .mc-body h3{font-family:'Inter',sans-serif;font-size:18px;font-weight:800;color:var(--dark);margin-bottom:4px}
+    .mc-body p{font-size:13px;color:var(--gray);margin-bottom:14px}
+    .mc-foot{display:flex;align-items:center;justify-content:space-between}
+    .mc-price .from{font-size:11px;color:var(--gray)}.mc-price .val{font-family:'Inter',sans-serif;font-size:22px;font-weight:900;color:var(--dark)}
+    .mc-btn{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;border:none;padding:11px 20px;border-radius:50px;font-size:13px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;transition:all .2s;font-family:'Hind Siliguri',sans-serif}
+    .mc-btn:hover{transform:scale(1.05)}
+    .mini-cards{display:flex;gap:10px;width:100%;max-width:400px}
+    .mi{flex:1;background:#fff;border-radius:16px;padding:14px;box-shadow:0 10px 30px rgba(0,0,0,.2);text-align:center}
+    .mi .ico{font-size:24px;margin-bottom:6px;display:block}
+    .mi strong{font-family:'Inter',sans-serif;font-size:18px;font-weight:900;color:var(--red);display:block}
+    .mi span{font-size:11px;color:var(--gray)}
+
+    /* ===== CAT PILLS ===== */
+    #cats{background:#fff;padding:28px 24px 0;border-bottom:1px solid #fce4ec}
+    .cats-row{max-width:1300px;margin:auto;display:flex;gap:12px;overflow-x:auto;padding-bottom:20px;scrollbar-width:none}
+    .cats-row::-webkit-scrollbar{display:none}
+    .cpill{flex-shrink:0;display:flex;align-items:center;gap:10px;border-radius:60px;padding:12px 22px;cursor:pointer;background:#fff5f7;border:1.5px solid #fce4ec;font-size:14px;font-weight:600;color:var(--text);transition:all .28s;white-space:nowrap;position:relative;overflow:hidden}
+    .cpill.active,.cpill:hover{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;border-color:transparent;box-shadow:0 6px 20px rgba(192,57,43,.35);transform:translateY(-2px)}
+    .cp-ico{font-size:20px}
+
+    /* Sub icons */
+    #subf{background:#fff;padding:0 24px 24px}
+    .sf-row{max-width:1300px;margin:auto;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+    .sf-row::-webkit-scrollbar{display:none}
+    .sfb{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:5px;padding:10px 18px;border-radius:14px;cursor:pointer;border:1.5px solid transparent;background:transparent;font-size:12px;color:var(--gray);font-weight:500;transition:all .2s;font-family:'Hind Siliguri',sans-serif}
+    .sfb i{font-size:20px;color:var(--gray)}
+    .sfb.active,.sfb:hover{background:#fff5f7;border-color:#fce4ec;color:var(--red)}
+    .sfb.active i,.sfb:hover i{color:var(--red)}
+
+    /* ===== SERVICE CARDS ===== */
+    #services{padding:28px 24px 60px;background:#fff}
+    .srv-head{max-width:1300px;margin:0 auto 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+    .sh-l h2{font-family:'Inter',sans-serif;font-size:28px;font-weight:800;color:#e91e63;letter-spacing:-.5px}
+    .sh-l p{font-size:14px;color:var(--gray);margin-top:3px}
+    .viewall{color:var(--red);font-size:13px;font-weight:700;text-decoration:none;border:1.5px solid var(--red);padding:8px 18px;border-radius:50px;display:flex;align-items:center;gap:6px;transition:all .2s}
+    .viewall:hover{background:var(--red);color:#fff}
+    .srv-grid{max-width:1300px;margin:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+    .sc{border-radius:18px;border:1.5px solid #fce4ec;background:#fff;overflow:hidden;cursor:pointer;transition:all .3s;position:relative}
+    .sc:hover{transform:translateY(-6px);box-shadow:0 20px 48px rgba(192,57,43,.12);border-color:#f48fb1}
+    .sc-img{height:180px;display:flex;align-items:center;justify-content:center;font-size:72px;position:relative}
+    .c1{background:linear-gradient(135deg,#fce4ec,#f8bbd9)}
+    .c2{background:linear-gradient(135deg,#fce4ec,#ffcdd2)}
+    .c3{background:linear-gradient(135deg,#fff3e0,#ffe0b2)}
+    .c4{background:linear-gradient(135deg,#f3e5f5,#e1bee7)}
+    .c5{background:linear-gradient(135deg,#e8f5e9,#c8e6c9)}
+    .c6{background:linear-gradient(135deg,#e3f2fd,#bbdefb)}
+    .sb{position:absolute;top:12px;left:12px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:800}
+    .sb-hot{background:#ef4444;color:#fff}.sb-new{background:#8b5cf6;color:#fff}.sb-pop{background:var(--gold);color:#fff}
+    .fav{position:absolute;top:12px;right:12px;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.9);display:flex;align-items:center;justify-content:center;font-size:16px;cursor:pointer;border:none;transition:all .2s}
+    .fav:hover{transform:scale(1.1)}
+    .sc-body{padding:16px 18px 18px}
+    .sc-name{font-family:'Inter',sans-serif;font-size:15px;font-weight:700;color:var(--dark);margin-bottom:4px}
+    .sc-desc{font-size:12px;color:var(--gray);line-height:1.6;margin-bottom:12px}
+    .sc-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px}
+    .sc-tag{background:#fff5f7;color:var(--red);padding:3px 9px;border-radius:20px;font-size:11px;font-weight:500}
+    .sc-foot{display:flex;align-items:center;justify-content:space-between}
+    .sc-pr .lbl{font-size:10px;color:var(--gray)}.sc-pr .amt{font-family:'Inter',sans-serif;font-size:19px;font-weight:900;color:var(--dark)}.sc-pr .unit{font-size:11px;color:var(--gray)}
+    .addbtn{background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;border:none;padding:9px 16px;border-radius:50px;font-size:12px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;transition:all .2s;font-family:'Hind Siliguri',sans-serif}
+    .addbtn:hover{transform:scale(1.06);box-shadow:0 6px 18px rgba(192,57,43,.4)}
+
+    /* ===== CLINIC VIDEO SECTION ===== */
+    #clinic{padding:70px 24px;background:var(--light)}
+    .clinic-inn{max-width:1200px;margin:auto}
+    .sec-top{text-align:center;margin-bottom:48px}
+    .sec-tag{display:inline-block;background:var(--rose);color:var(--red);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:700;margin-bottom:10px}
+    .sec-h2{font-family:'Inter',sans-serif;font-size:32px;font-weight:800;color:#e91e63;letter-spacing:-.5px}
+    .sec-p{font-size:15px;color:var(--gray);margin-top:6px}
+    .clinic-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+    /* Video placeholder */
+    .video-box{
+      border-radius:24px;overflow:hidden;
+      background:linear-gradient(135deg,#1a0a0a,#3d1515);
+      aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;
+      position:relative;cursor:pointer;border:3px solid var(--rose);
+    }
+    .video-box::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.3)}
+    .play-btn{
+      position:relative;z-index:1;
+      width:80px;height:80px;border-radius:50%;
+      background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;
+      font-size:28px;color:var(--red);
+      box-shadow:0 8px 32px rgba(0,0,0,.4);transition:all .3s;
+    }
+    .play-btn:hover{transform:scale(1.12);background:#fff}
+    .video-label{
+      position:absolute;bottom:20px;left:20px;z-index:1;
+      background:rgba(255,255,255,.95);color:var(--dark);
+      padding:8px 16px;border-radius:50px;font-size:13px;font-weight:700;
+      display:flex;align-items:center;gap:8px;
+    }
+    .vl-dot{width:8px;height:8px;border-radius:50%;background:#ef4444;animation:blink 1s infinite}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+    /* Upload hint */
+    .video-hint{
+      position:absolute;top:20px;right:20px;z-index:1;
+      background:rgba(255,255,255,.9);color:var(--red);
+      padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;
+    }
+    /* Clinic features */
+    .clinic-features{display:flex;flex-direction:column;gap:16px}
+    .cf{display:flex;gap:16px;align-items:flex-start;background:#fff;border-radius:16px;padding:18px;border:1.5px solid #fce4ec;transition:all .2s}
+    .cf:hover{transform:translateX(4px);border-color:var(--red);box-shadow:0 6px 20px rgba(192,57,43,.1)}
+    .cf-ico{width:48px;height:48px;border-radius:12px;background:var(--rose);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+    .cf-txt h4{font-size:15px;font-weight:700;color:var(--dark);margin-bottom:4px}
+    .cf-txt p{font-size:13px;color:var(--gray);line-height:1.6}
+    /* Gallery strip */
+    .gallery-strip{margin-top:28px;display:flex;gap:12px;overflow-x:auto;scrollbar-width:none}
+    .gallery-strip::-webkit-scrollbar{display:none}
+    .g-thumb{
+      flex-shrink:0;width:160px;height:120px;border-radius:14px;
+      display:flex;align-items:center;justify-content:center;
+      font-size:40px;border:2px solid #fce4ec;cursor:pointer;
+      transition:all .2s;position:relative;overflow:hidden;
+    }
+    .g-thumb:hover{transform:scale(1.04);border-color:var(--red)}
+    .g-thumb.c1{background:linear-gradient(135deg,#fce4ec,#f8bbd9)}
+    .g-thumb.c2{background:linear-gradient(135deg,#fff3e0,#ffe0b2)}
+    .g-thumb.c3{background:linear-gradient(135deg,#e8f5e9,#c8e6c9)}
+    .g-thumb.c4{background:linear-gradient(135deg,#e3f2fd,#bbdefb)}
+    .g-add{
+      flex-shrink:0;width:160px;height:120px;border-radius:14px;
+      display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+      border:2px dashed #f48fb1;cursor:pointer;color:var(--red);font-size:13px;font-weight:600;
+      transition:all .2s;background:#fff5f7;
+    }
+    .g-add:hover{background:var(--rose);border-color:var(--red)}
+    .g-add i{font-size:24px}
+
+    /* ===== DOCTORS SECTION ===== */
+    #doctors{padding:70px 24px;background:#fff}
+    .doc-inn{max-width:1200px;margin:auto}
+    .doc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+    .doc-card{background:#fff;border-radius:22px;overflow:hidden;border:1.5px solid #fce4ec;transition:all .3s}
+    .doc-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(192,57,43,.12);border-color:#f48fb1}
+    .doc-img{
+      height:200px;background:linear-gradient(135deg,#fce4ec,#f8bbd9);
+      display:flex;align-items:center;justify-content:center;font-size:80px;
+      position:relative;
+    }
+    .doc-badge{
+      position:absolute;bottom:14px;left:50%;transform:translateX(-50%);
+      background:var(--red);color:#fff;padding:5px 14px;border-radius:20px;
+      font-size:12px;font-weight:700;white-space:nowrap;
+    }
+    .doc-body{padding:20px 22px}
+    .doc-name{font-family:'Inter',sans-serif;font-size:18px;font-weight:800;color:var(--dark);margin-bottom:4px}
+    .doc-title{font-size:13px;color:var(--red);font-weight:600;margin-bottom:8px}
+    .doc-bio{font-size:13px;color:var(--gray);line-height:1.7;margin-bottom:14px}
+    .doc-tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px}
+    .doc-tag{background:#fff5f7;color:var(--red);padding:3px 10px;border-radius:20px;font-size:11px;font-weight:500}
+    .doc-contact{display:flex;gap:8px}
+    .dc-btn{
+      flex:1;padding:9px;border-radius:50px;border:none;cursor:pointer;
+      font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:6px;
+      font-family:'Hind Siliguri',sans-serif;transition:all .2s;
+    }
+    .dc-call{background:var(--rose);color:var(--red)}
+    .dc-call:hover{background:var(--red);color:#fff}
+    .dc-wa{background:#25d366;color:#fff}
+    .dc-wa:hover{background:#1db954}
+    /* Add Doctor card */
+    .doc-add{
+      border-radius:22px;border:2px dashed #f48fb1;
+      background:#fff5f7;display:flex;flex-direction:column;
+      align-items:center;justify-content:center;gap:14px;
+      min-height:300px;cursor:pointer;transition:all .2s;
+    }
+    .doc-add:hover{background:var(--rose);border-color:var(--red)}
+    .doc-add i{font-size:36px;color:var(--red)}
+    .doc-add span{font-size:15px;font-weight:600;color:var(--red)}
+    .doc-add small{font-size:13px;color:var(--gray);text-align:center;padding:0 20px}
+
+    /* ===== BANNER ===== */
+    #banner{margin:0 24px 60px;border-radius:24px;background:linear-gradient(135deg,#7b1a1a,var(--red),var(--red2));padding:40px 48px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;max-width:1300px;margin-left:auto;margin-right:auto}
+    .ban-t h2{font-family:'Inter',sans-serif;font-size:28px;font-weight:800;color:#fff;margin-bottom:6px}
+    .ban-t p{font-size:15px;color:rgba(255,255,255,.8)}
+    .ban-b{display:flex;gap:12px;flex-wrap:wrap}
+    .bb1{background:#fff;color:var(--red);padding:12px 26px;border-radius:50px;font-weight:800;font-size:14px;text-decoration:none;transition:all .2s}
+    .bb1:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
+    .bb2{border:2px solid rgba(255,255,255,.5);color:#fff;padding:12px 24px;border-radius:50px;font-weight:600;font-size:14px;text-decoration:none;transition:all .2s}
+    .bb2:hover{background:rgba(255,255,255,.12)}
+
+    /* ===== WHY ===== */
+    #why{padding:60px 24px;background:var(--light)}
+    .why-inn{max-width:1300px;margin:auto}
+    .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .wc{background:#fff;border-radius:18px;padding:26px 20px;text-align:center;border:1.5px solid #fce4ec;transition:all .3s}
+    .wc:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(192,57,43,.1);border-color:#f48fb1}
+    .wc-ico{font-size:36px;margin-bottom:12px;display:block}
+    .wc h4{font-size:16px;font-weight:700;color:var(--dark);margin-bottom:7px}
+    .wc p{font-size:13px;color:var(--gray);line-height:1.7}
+
+    /* ===== REVIEWS ===== */
+    #reviews{padding:60px 24px;background:#fff}
+    .rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+    .rc{background:#fff;border-radius:18px;padding:24px;border:1.5px solid #fce4ec;transition:all .3s;position:relative}
+    .rc:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(192,57,43,.08);border-color:#f48fb1}
+    .rc-q{position:absolute;top:18px;right:18px;font-size:38px;color:#fce4ec;line-height:1}
+    .rc-stars{color:#fbbf24;font-size:14px;margin-bottom:10px}
+    .rc-txt{font-size:14px;color:var(--text);line-height:1.8;margin-bottom:16px;font-style:italic}
+    .rc-auth{display:flex;align-items:center;gap:11px}
+    .rav{width:42px;height:42px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,var(--red),var(--red2));display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;font-weight:700}
+    .rav-n{font-size:14px;font-weight:700;color:var(--dark)}.rav-l{font-size:12px;color:var(--gray)}
+
+    /* ===== APPOINTMENT ===== */
+    #appointment{padding:60px 24px;background:var(--light)}
+    .appt-inn{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1.3fr;gap:48px;align-items:start}
+    .appt-l h2{font-family:'Inter',sans-serif;font-size:32px;font-weight:800;color:#e91e63;letter-spacing:-.5px;margin-bottom:12px}
+    .appt-l p{font-size:15px;color:var(--gray);line-height:1.8;margin-bottom:26px}
+    .ci-list{display:flex;flex-direction:column;gap:12px}
+    .ci{display:flex;align-items:center;gap:14px;background:#fff;padding:14px 16px;border-radius:14px;border:1.5px solid #fce4ec}
+    .ci-ic{width:38px;height:38px;border-radius:10px;background:var(--rose);display:flex;align-items:center;justify-content:center;color:var(--red);font-size:16px;flex-shrink:0}
+    .ci-ic.wa{background:#d1fae5;color:#059669}.ci-ic.ms{background:#ede9fe;color:#7c3aed}
+    .ci strong{font-size:14px;color:var(--dark);display:block}.ci span{font-size:12px;color:var(--gray)}
+    .appt-form{background:#fff;border-radius:22px;padding:30px;box-shadow:0 16px 48px rgba(192,57,43,.1);border:1.5px solid #fce4ec}
+    .appt-form h3{font-family:'Inter',sans-serif;font-size:19px;font-weight:800;color:var(--dark);margin-bottom:22px}
+    .fg{margin-bottom:14px}
+    .fg label{display:block;font-size:12px;font-weight:700;color:var(--text);margin-bottom:5px}
+    .fg input,.fg select,.fg textarea{width:100%;padding:11px 14px;border:1.5px solid #fce4ec;border-radius:11px;font-size:14px;font-family:'Hind Siliguri',sans-serif;color:var(--dark);outline:none;transition:all .2s;background:#fff}
+    .fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(192,57,43,.08)}
+    .fg-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .sub-btn{width:100%;padding:14px;border-radius:50px;border:none;cursor:pointer;background:linear-gradient(135deg,var(--red),var(--red2));color:#fff;font-size:15px;font-weight:700;font-family:'Hind Siliguri',sans-serif;display:flex;align-items:center;justify-content:center;gap:8px;transition:all .3s;box-shadow:0 6px 20px rgba(192,57,43,.35)}
+    .sub-btn:hover{transform:translateY(-2px);box-shadow:0 10px 28px rgba(192,57,43,.5)}
+    .ok-box{display:none;margin-top:12px;padding:13px;background:#d1fae5;border:1.5px solid #6ee7b7;border-radius:11px;text-align:center;font-size:14px;font-weight:600;color:#059669}
+
+    /* ===== FOOTER ===== */
+    footer{background:var(--dark);color:rgba(255,255,255,.65);padding:56px 24px 24px}
+    .foot-inn{max-width:1300px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:44px}
+    .fb-logo{font-family:'Inter',sans-serif;font-size:22px;font-weight:900;color:#fff;text-decoration:none;letter-spacing:-1px;display:flex;align-items:center;gap:8px;margin-bottom:12px}
+    .foot-brand p{font-size:13px;line-height:1.8;max-width:260px}
+    .fsocs{display:flex;gap:8px;margin-top:16px}
+    .fs{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.65);text-decoration:none;font-size:14px;transition:all .2s}
+    .fs:hover{background:var(--red);color:#fff;transform:translateY(-2px)}
+    .fc h5{color:#fff;font-size:14px;font-weight:700;margin-bottom:14px}
+    .fc ul{list-style:none}.fc ul li{margin-bottom:8px}
+    .fc ul li a{color:rgba(255,255,255,.55);text-decoration:none;font-size:13px;transition:color .2s}
+    .fc ul li a:hover{color:#f48fb1}
+    .fbot{max-width:1300px;margin:auto;padding-top:18px;border-top:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+    .fbot p{font-size:12px}
+
+    /* ===== FLOAT BUTTONS ===== */
+    .floats{position:fixed;right:22px;bottom:22px;z-index:9999;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+    .fl-wa{display:flex;align-items:center;gap:10px;background:#25d366;color:#fff;padding:13px 22px;border-radius:50px;text-decoration:none;font-size:14px;font-weight:700;box-shadow:0 6px 24px rgba(37,211,102,.55);animation:waPulse 2.5s infinite;transition:all .2s}
+    .fl-wa:hover{transform:scale(1.05);background:#1db954}
+    .fl-ms{display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#0084ff,#44bec7);color:#fff;padding:13px 22px;border-radius:50px;text-decoration:none;font-size:14px;font-weight:700;box-shadow:0 6px 24px rgba(0,132,255,.45);transition:all .2s}
+    .fl-ms:hover{transform:scale(1.05)}
+    .fl-top{width:44px;height:44px;border-radius:50%;background:var(--red);color:#fff;border:none;cursor:pointer;font-size:16px;display:none;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(192,57,43,.4);transition:all .2s}
+    .fl-top:hover{background:var(--red2)}.fl-top.show{display:flex}
+    .fl-wa span,.fl-ms span{white-space:nowrap}
+    @keyframes waPulse{0%,100%{box-shadow:0 6px 24px rgba(37,211,102,.55)}50%{box-shadow:0 6px 36px rgba(37,211,102,.85),0 0 0 10px rgba(37,211,102,.12)}}
+
+    /* ===== MOBILE ===== */
+    @media(max-width:960px){
+      .hero-wrap{grid-template-columns:1fr}.hero-right{display:none}
+      .h-h1{font-size:40px}.nav-links,.nav-right{display:none}.ham{display:block}
+      .foot-inn{grid-template-columns:1fr 1fr}.appt-inn{grid-template-columns:1fr}
+      .clinic-grid{grid-template-columns:1fr}.fl-wa span,.fl-ms span{display:none}
+      .fl-wa,.fl-ms{padding:14px}.fg-row{grid-template-columns:1fr}
+      #banner{padding:28px 24px}
+    }
+    @media(max-width:600px){.h-h1{font-size:30px}.foot-inn{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<div id="website-root">
+
+<!-- TOP BAR -->
+<div class="topbar" id="topbar">
+  <i class="fas fa-star" style="color:#ffd700"></i>
+  প্রথম ভিজিটে ২০% ছাড়! সীমিত সময়ের অফার
+  <a href="#appointment">এখনই বুক করুন →</a>
+</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <div class="logo-mark">👑</div>
+      HUNDRED SECURITY
+    </a>
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">হোম</a></li>
+      <li><a href="#services">সেবা</a></li>
+      <li><a href="#clinic">ক্লিনিক</a></li>
+      <li><a href="#youtube-channel">ইউটিউব</a></li>
+      <li><a href="#doctors">ডাক্তার</a></li>
+      <li><a href="#location">ঠিকানা ও ম্যাপ</a></li>
+      <li><a href="#reviews">রিভিউ</a></li>
+      <li><a href="#appointment">যোগাযোগ</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="tel:+8801998972774" class="nav-phone"><i class="fas fa-phone"></i> 01301-809347</a>
+      <a href="https://wa.me/8801998972774" class="btn-wa" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="#appointment" class="btn-appt"><i class="fas fa-calendar-check"></i> অ্যাপয়েন্টমেন্ট</a>
+    </div>
+    <div class="ham" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hc hc1"></div><div class="hc hc2"></div><div class="hc hc3"></div>
+  <div class="hero-wrap">
+    <div>
+      <div class="h-badge"><span class="dot"></span> MBBS ডাক্তার কর্তৃক পরিচালিত</div>
+      <h1 class="h-h1">আধুনিক <em>লেজার</em><br/>ও হিজামা<br/>চিকিৎসা সেন্টার</h1>
+      <p class="h-sub">চেহারার ব্রণ, আঁচিল, তিল, দাগ-ছোপ দূর করুন অত্যাধুনিক লেজার প্রযুক্তিতে। পাশাপাশি ইসলামিক হিজামা থেরাপি — সম্পূর্ণ নিরাপদ ও ব্যথামুক্ত।</p>
+      <div class="h-btns">
+        <a href="#appointment" class="hb1"><i class="fas fa-calendar-check"></i> অ্যাপয়েন্টমেন্ট নিন</a>
+        <a href="https://wa.me/8801998972774?text=আমি অ্যাপয়েন্টমেন্ট নিতে চাই" class="hb2" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp করুন (01301-809347)</a>
+      </div>
+      <div class="h-proof">
+        <div class="pa"><div class="av">র</div><div class="av">ক</div><div class="av">ন</div><div class="av">স</div></div>
+        <div class="pt"><span class="stars">★★★★★ ৪.৯/৫</span>৫০০+ সন্তুষ্ট রোগী</div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="main-card">
+        <div class="mc-top">🔬<span class="mc-label">✅ নিরাপদ</span><span class="mc-hot">Hot</span></div>
+        <div class="mc-body">
+          <h3>লেজার স্কিন ট্রিটমেন্ট</h3>
+          <p>আঁচিল, তিল ও দাগ — আধুনিক লেজারে স্থায়ী সমাধান</p>
+          <div class="mc-foot">
+            <div class="mc-price"><div class="from">প্যাকেজ শুরু হচ্ছে</div><div class="val">৳৫,০০০</div></div>
+            <button class="mc-btn" onclick="book('লেজার স্কিন ট্রিটমেন্ট')"><i class="fas fa-calendar"></i> বুক করুন</button>
+          </div>
+        </div>
+      </div>
+      <div class="mini-cards">
+        <div class="mi"><span class="ico">👨‍⚕️</span><strong contenteditable="true">৫+</strong><span contenteditable="true">বছরের অভিজ্ঞতা</span></div>
+        <div class="mi"><span class="ico">🏆</span><strong contenteditable="true">৫০০+</strong><span contenteditable="true">সফল রোগী</span></div>
+        <div class="mi"><span class="ico">⭐</span><strong contenteditable="true">৪.৯</strong><span contenteditable="true">রেটিং</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section id="cats">
+  <div class="cats-row">
+    <div class="cpill active" onclick="filterCat(this,'all')"><span class="cp-ico">🏥</span><span>সকল সেবা</span></div>
+    <div class="cpill" onclick="filterCat(this,'laser')"><span class="cp-ico">🔬</span><span>লেজার ট্রিটমেন্ট</span></div>
+    <div class="cpill" onclick="filterCat(this,'hijama')"><span class="cp-ico">💉</span><span>হিজামা থেরাপি</span></div>
+    <div class="cpill" onclick="filterCat(this,'face')"><span class="cp-ico">✨</span><span>ফেসিয়াল কেয়ার</span></div>
+    <div class="cpill" onclick="filterCat(this,'skin')"><span class="cp-ico">💎</span><span>স্কিন কেয়ার</span></div>
+    <div class="cpill" onclick="filterCat(this,'consult')"><span class="cp-ico">🩺</span><span>কনসালটেশন</span></div>
+  </div>
+</section>
+<section id="subf">
+  <div class="sf-row">
+    <button class="sfb active"><i class="fas fa-th"></i>সব</button>
+    <button class="sfb"><i class="fas fa-bolt"></i>লেজার</button>
+    <button class="sfb"><i class="fas fa-hand-holding-medical"></i>হিজামা</button>
+    <button class="sfb"><i class="fas fa-spa"></i>ফেসিয়াল</button>
+    <button class="sfb"><i class="fas fa-star"></i>স্কিন গ্লো</button>
+    <button class="sfb"><i class="fas fa-band-aid"></i>স্কার</button>
+    <button class="sfb"><i class="fas fa-stethoscope"></i>পরামর্শ</button>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="srv-head">
+    <div class="sh-l"><h2>আমাদের সেবাসমূহ</h2><p>MBBS ডাক্তারের তত্ত্বাবধানে সম্পূর্ণ নিরাপদ চিকিৎসা</p></div>
+    <a href="#appointment" class="viewall">সব দেখুন <i class="fas fa-arrow-right"></i></a>
+  </div>
+  <div class="srv-grid" id="sg">
+
+    <!-- 1. Carbon Laser -->
+    <div class="sc" data-cat="laser">
+      <div class="sc-img c1"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop&q=80" alt="Carbon Laser Facial" /><span class="sb sb-hot">৫০% ছাড়</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Carbon Laser (কার্বন লেজার)</div>
+        <div class="sc-desc">ব্ল্যাকহেডস, পোরস সঙ্কোচন ও ত্বক নিমিষেই এক্সফোলিয়েট করে ইনস্ট্যান্ট গ্লো।</div>
+        <div class="sc-tags"><span class="sc-tag">কার্বন পিল</span><span class="sc-tag">পোরস মিনিমাইজ</span><span class="sc-tag">গ্লো</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳২,০০০</span><span class="amt">৳১,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('Carbon Laser')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Hydrafacial -->
+    <div class="sc" data-cat="face">
+      <div class="sc-img c2"><img src="https://images.unsplash.com/photo-1512290903672-00566373b52a?w=600&auto=format&fit=crop&q=80" alt="Hydrafacial Skin Care" /><span class="sb sb-pop">জনপ্রিয়</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Hydrafacial (হাইড্রাফেসিয়াল)</div>
+        <div class="sc-desc">ডিপ ক্লিনিং, এক্সফোলিয়েশন ও সিরাম ইনফিউশন দিয়ে ত্বককে করে সতেজ ও প্রাণবন্ত।</div>
+        <div class="sc-tags"><span class="sc-tag">ডিপ হাইড্রেটিং</span><span class="sc-tag">স্কিন গ্লো</span><span class="sc-tag">ফেসিয়াল</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳২,০০০</span><span class="amt">৳১,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('Hydrafacial')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Laser Hair Removal -->
+    <div class="sc" data-cat="laser">
+      <div class="sc-img c3"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&auto=format&fit=crop&q=80" alt="Laser Hair Removal" /><span class="sb sb-hot">৫০% ছাড়</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Laser Hair Removal (হেয়ার রিমুভাল)</div>
+        <div class="sc-desc">শরীরের যেকোনো অংশের অবাঞ্ছিত লোম আধুনিক লেজারে স্থায়ী ও ব্যথামুক্ত সমাধান।</div>
+        <div class="sc-tags"><span class="sc-tag">ব্যথামুক্ত</span><span class="sc-tag">স্থায়ী সমাধান</span><span class="sc-tag">লেজার</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳৪,০০০</span><span class="amt">৳২,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('Laser Hair Removal')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. CO₂ Fractional Laser -->
+    <div class="sc" data-cat="laser">
+      <div class="sc-img c4"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&auto=format&fit=crop&q=80" alt="CO2 Fractional Laser Skin Resurfacing" /><span class="sb sb-hot">৫০% ছাড়</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">CO₂ Fractional Laser</div>
+        <div class="sc-desc">গভীর ব্রণের গর্ত, পুরোনো স্কার ও ত্বকের টেক্সচার নিখুঁতভাবে রিসার্ফেসিং।</div>
+        <div class="sc-tags"><span class="sc-tag">অ্যাকনে স্কার</span><span class="sc-tag">রিসার্ফেসিং</span><span class="sc-tag">মেডিকেল লেজার</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳৬,০০০</span><span class="amt">৳৩,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('CO₂ Fractional Laser')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5. PRP + Microneedling -->
+    <div class="sc" data-cat="face">
+      <div class="sc-img c5"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&auto=format&fit=crop&q=80" alt="PRP Microneedling Treatment" /><span class="sb sb-pop">টপ রেটেড</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">PRP + Microneedling</div>
+        <div class="sc-desc">নিজস্ব রক্তরস (PRP) ও মাইক্রোনিডলিংয়ে কোলাজেন বৃদ্ধি এবং ত্বক ও চুলের পুনরুজ্জীবন।</div>
+        <div class="sc-tags"><span class="sc-tag">কোলাজেন বুস্টিং</span><span class="sc-tag">পিআরপি</span><span class="sc-tag">অ্যান্টি-এজিং</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳৬,০০০</span><span class="amt">৳৩,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('PRP + Microneedling')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. BiBiGlow / Glass Skin Facial -->
+    <div class="sc" data-cat="face">
+      <div class="sc-img c6"><img src="https://images.unsplash.com/photo-1512290900672-1f55b9359a60?w=600&auto=format&fit=crop&q=80" alt="Glass Skin Glow Facial" /><span class="sb sb-new">গ্লাস স্কিন</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">BiBiGlow / Glass Skin Facial</div>
+        <div class="sc-desc">কোরিয়ান গ্লাস স্কিন এফেক্ট, ত্বকের উজ্জ্বলতা ও মসৃণ টেক্সচারের স্থায়ী ফাউন্ডেশন লুক।</div>
+        <div class="sc-tags"><span class="sc-tag">গ্লাস স্কিন</span><span class="sc-tag">বিবি গ্লো</span><span class="sc-tag">উজ্জ্বলতা</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳৪,০০০</span><span class="amt">৳২,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('BiBiGlow / Glass Skin Facial')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. Mole / Wart / Skin Tag Removal -->
+    <div class="sc" data-cat="laser">
+      <div class="sc-img c1"><img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=600&auto=format&fit=crop&q=80" alt="Mole Wart Removal Dermatology" /><span class="sb sb-hot">ব্যথামুক্ত</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Mole / Wart / Skin Tag Removal</div>
+        <div class="sc-desc">মুখ ও শরীরের তিল, আঁচিল ও স্কিন ট্যাগ কোনো কাটাছেঁড়া ছাড়া লেজারে অপসারণ।</div>
+        <div class="sc-tags"><span class="sc-tag">তিল অপসারণ</span><span class="sc-tag">আঁচিল</span><span class="sc-tag">স্কিন ট্যাগ</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">চিকিৎসা ফি</div>
+            <span class="discuss-price">আলোচনা সাপেক্ষে</span>
+          </div>
+          <button class="addbtn" onclick="book('Mole / Wart / Skin Tag Removal')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8. Freckles & Spot Removal -->
+    <div class="sc" data-cat="skin">
+      <div class="sc-img c2"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&auto=format&fit=crop&q=80" alt="Freckles and Spot Removal" /><span class="sb sb-new">দাগ মুক্তি</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Freckles & Spot Removal</div>
+        <div class="sc-desc">মুখের তিলাচিল, মেছতার পুরোনো দাগ ও পিগমেন্টেশন লেজার রশ্মির সাহায্যে দূরীকরণ।</div>
+        <div class="sc-tags"><span class="sc-tag">মেছতা</span><span class="sc-tag">তিলাচিল</span><span class="sc-tag">কালো দাগ</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">চিকিৎসা ফি</div>
+            <span class="discuss-price">আলোচনা সাপেক্ষে</span>
+          </div>
+          <button class="addbtn" onclick="book('Freckles & Spot Removal')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 9. Tattoo Removal -->
+    <div class="sc" data-cat="laser">
+      <div class="sc-img c3"><img src="https://images.unsplash.com/photo-1590246814883-578336f65fa3?w=600&auto=format&fit=crop&q=80" alt="Laser Tattoo Removal" /><span class="sb sb-pop">লেজার রিমুভাল</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Tattoo Removal (ট্যাটু রিমুভাল)</div>
+        <div class="sc-desc">যেকোনো পুরোনো বা রঙিন ট্যাটু স্কিনের ক্ষতি না করে অত্যাধুনিক লেজারে মুছে ফেলা।</div>
+        <div class="sc-tags"><span class="sc-tag">স্থায়ী ট্যাটু</span><span class="sc-tag">নিরাপদ লেজার</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">চিকিৎসা ফি</div>
+            <span class="discuss-price">আলোচনা সাপেক্ষে</span>
+          </div>
+          <button class="addbtn" onclick="book('Tattoo Removal')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 10. Plasma Fibroblast Skin Tightening -->
+    <div class="sc" data-cat="face">
+      <div class="sc-img c4"><img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&auto=format&fit=crop&q=80" alt="Plasma Fibroblast Skin Tightening" /><span class="sb sb-hot">৫০% ছাড়</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Plasma Fibroblast Skin Tightening</div>
+        <div class="sc-desc">ঝুলে পড়া ত্বক টানটান, বলিরেখা হ্রাস ও আইলিড লিফটিংয়ের অত্যাধুনিক প্লাজমা প্রযুক্তি।</div>
+        <div class="sc-tags"><span class="sc-tag">স্কিন টাইটেনিং</span><span class="sc-tag">রিঙ্কেল রিমুভাল</span><span class="sc-tag">প্লাজমা</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳৮,০০০</span><span class="amt">৳৪,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('Plasma Fibroblast Skin Tightening')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 11. Stretch Marks Removal -->
+    <div class="sc" data-cat="skin">
+      <div class="sc-img c5"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop&q=80" alt="Stretch Marks Removal" /><span class="sb sb-hot">৫০% ছাড়</span><button class="fav">🤍</button></div>
+      <div class="sc-body">
+        <div class="sc-name">Stretch Marks Removal</div>
+        <div class="sc-desc">গর্ভাবস্থা বা ওজন পরিবর্তনের স্ট্রেচ মার্ক লেজার ও মাইক্রো-নিডলিংয়ে হালকা ও মসৃণকরণ।</div>
+        <div class="sc-tags"><span class="sc-tag">স্ট্রেচ মার্ক</span><span class="sc-tag">স্কিন স্মুথিং</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <div class="lbl">অফার মূল্য</div>
+            <span class="old-price">৳৬,০০০</span><span class="amt">৳৩,০০০</span><span class="offer-badge">৫০% Off</span>
+          </div>
+          <button class="addbtn" onclick="book('Stretch Marks Removal')"><i class="fas fa-calendar"></i> বুক করুন</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== CLINIC VIDEO SECTION ===== -->
+<section id="clinic">
+  <div class="clinic-inn">
+    <div class="sec-top">
+      <div class="sec-tag">🏥 আমাদের ক্লিনিক</div>
+      <div class="sec-h2">আমাদের আধুনিক চিকিৎসা কেন্দ্র</div>
+      <div class="sec-p">পরিষ্কার, স্বাস্থ্যসম্মত ও আধুনিক সরঞ্জামে সজ্জিত আমাদের ক্লিনিক</div>
+    </div>
+    <div class="clinic-grid">
+      <!-- Video Box -->
+      <div>
+        <div class="video-box" id="videoBox" style="position:relative;overflow:hidden;aspect-ratio:16/9;border-radius:24px">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zLwYYgv9pJ4?rel=0" title="Clinic Video Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;border-radius:24px"></iframe>
+        </div>
+        <!-- Gallery Strip -->
+        <div class="gallery-strip" style="margin-top:16px">
+          <div class="g-thumb c1">🔬</div>
+          <div class="g-thumb c2">💉</div>
+          <div class="g-thumb c3">✨</div>
+          <div class="g-thumb c4">🏥</div>
+          <div class="g-add">
+            <i class="fas fa-plus-circle"></i>
+            <span>ছবি যোগ করুন</span>
+          </div>
+        </div>
+      </div>
+      <!-- Clinic Features -->
+      <div class="clinic-features">
+        <div class="cf">
+          <div class="cf-ico">🔬</div>
+          <div class="cf-txt"><h4>অত্যাধুনিক লেজার মেশিন</h4><p>FDA অনুমোদিত সর্বাধুনিক মেডিকেল গ্রেড লেজার মেশিন। আন্তর্জাতিকভাবে স্বীকৃত।</p></div>
+        </div>
+        <div class="cf">
+          <div class="cf-ico">🛡️</div>
+          <div class="cf-txt"><h4>সম্পূর্ণ স্টেরাইল পরিবেশ</h4><p>প্রতিটি ট্রিটমেন্টের আগে সম্পূর্ণ জীবাণুমুক্ত করা হয়। সর্বোচ্চ স্বাস্থ্যবিধি মানা হয়।</p></div>
+        </div>
+        <div class="cf">
+          <div class="cf-ico">🛋️</div>
+          <div class="cf-txt"><h4>আরামদায়ক ওয়েটিং রুম</h4><p>রোগীদের জন্য পরিষ্কার, আরামদায়ক ও শীতাতপ নিয়ন্ত্রিত ওয়েটিং রুম।</p></div>
+        </div>
+        <div class="cf">
+          <div class="cf-ico">🅿️</div>
+          <div class="cf-txt"><h4>সহজ পার্কিং সুবিধা</h4><p>ক্লিনিকের সামনে গাড়ি পার্কিংয়ের সুবিধা রয়েছে।</p></div>
+        </div>
+        <div class="cf">
+          <div class="cf-ico">📍</div>
+          <div class="cf-txt">
+            <h4>সহজ অবস্থান</h4>
+            <p>৪/ক, আজিমপুর রোড, ঢাকা ১২১১ (P9CQ+8H ঢাকা) — <a href="https://maps.app.goo.gl/VUvGGX8AhzGHqopF9" target="_blank" style="color:var(--red);font-weight:700;text-decoration:none">Google Maps-এ দেখুন <i class="fas fa-external-link-alt" style="font-size:11px"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== YOUTUBE CHANNEL SECTION ===== -->
+<section id="youtube-channel" style="padding:70px 24px;background:linear-gradient(135deg,#1f1114 0%,#2d1218 50%,#180a0d 100%);color:#fff;position:relative;overflow:hidden">
+  <div style="max-width:1250px;margin:auto;position:relative;z-index:2">
+    <div style="text-align:center;margin-bottom:40px">
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,0,0,0.18);border:1px solid rgba(255,60,60,0.4);color:#ff6b6b;padding:6px 18px;border-radius:30px;font-size:13px;font-weight:700;margin-bottom:12px">
+        <i class="fab fa-youtube" style="font-size:18px;color:#ff3333"></i> অফিসিয়াল YouTube চ্যানেল
+      </div>
+      <h2 style="font-family:'Inter',sans-serif;font-size:34px;font-weight:800;color:#fff;margin-bottom:10px">
+        আমাদের YouTube চ্যানেল ভিজিট ও সাবস্ক্রাইব করুন
+      </h2>
+      <p style="font-size:16px;color:rgba(255,255,255,0.8);max-width:650px;margin:auto">
+        ত্বকের যত্ন, আধুনিক লেজার ট্রিটমেন্ট ও হিজামা সম্পর্কিত বিভিন্ন চিকিৎসা পদ্ধতি ও সচেতনতামূলক ভিডিও দেখতে সরাসরি আমাদের চ্যানেলে যুক্ত থাকুন।
+      </p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.2fr 0.8fr;gap:32px;align-items:center">
+      <!-- YouTube Video Player -->
+      <div style="border-radius:20px;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,0.6);border:2px solid rgba(255,255,255,0.15);aspect-ratio:16/9;background:#000;position:relative">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/zLwYYgv9pJ4?rel=0" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen 
+          style="width:100%;height:100%;border:none;display:block">
+        </iframe>
+      </div>
+
+      <!-- Channel Details & Direct Action -->
+      <div style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:20px;padding:32px;backdrop-filter:blur(8px)">
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:20px">
+          <div style="width:60px;height:60px;border-radius:50%;background:#ff0000;display:flex;align-items:center;justify-content:center;font-size:28px;color:#fff;box-shadow:0 8px 24px rgba(255,0,0,0.4)">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div>
+            <h4 style="font-size:20px;font-weight:800;color:#fff;margin-bottom:4px">YouTube চ্যানেল</h4>
+            <span style="font-size:13px;color:#ff8585;font-weight:600">নিয়মিত নতুন ভিডিও আপডেট</span>
+          </div>
+        </div>
+
+        <p style="font-size:14px;color:rgba(255,255,255,0.75);line-height:1.8;margin-bottom:24px">
+          এখানে আমাদের ক্লিনিকে চিকিৎসা নেওয়া রোগীদের বাস্তব অভিজ্ঞতা, ডাক্তারদের স্বাস্থ্যপরামর্শ ও বিভিন্ন সেবার লাইভ ডেমো দেখতে পারবেন।
+        </p>
+
+        <a href="https://www.youtube.com/watch?v=zLwYYgv9pJ4" target="_blank" style="background:#ff0000;color:#fff;padding:14px 28px;border-radius:50px;font-size:15px;font-weight:800;text-decoration:none;display:flex;align-items:center;justify-content:center;gap:10px;box-shadow:0 8px 25px rgba(255,0,0,0.45);transition:all .3s" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <i class="fab fa-youtube" style="font-size:20px"></i> সরাসরি YouTube চ্যানেলে যান ও সাবস্ক্রাইব করুন
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DOCTORS SECTION ===== -->
+<section id="doctors">
+  <div class="doc-inn">
+    <div class="sec-top">
+      <div class="sec-tag">👨‍⚕️ আমাদের ডাক্তার দল</div>
+      <div class="sec-h2">বিশেষজ্ঞ ডাক্তার দল</div>
+      <div class="sec-p">অভিজ্ঞ ও যোগ্য ডাক্তারদের হাতে আপনার চিকিৎসা</div>
+    </div>
+    <div class="doc-grid">
+
+      <!-- Doctor 1 -->
+      <div class="doc-card">
+        <div class="doc-img">
+          👨‍⚕️
+          <div class="doc-badge" contenteditable="true">✅ MBBS, স্কিন স্পেশালিস্ট</div>
+        </div>
+        <div class="doc-body">
+          <div class="doc-name" contenteditable="true" title="ক্লিক করে সরাসরি নাম এডিট করুন">ডা. [নাম যোগ করুন]</div>
+          <div class="doc-title" contenteditable="true" title="ক্লিক করে পদবী এডিট করুন">MBBS | লেজার ও হিজামা বিশেষজ্ঞ</div>
+          <div class="doc-bio" contenteditable="true" title="ক্লিক করে বিবরণ এডিট করুন">৫+ বছরের অভিজ্ঞতাসম্পন্ন স্কিন স্পেশালিস্ট। লেজার ট্রিটমেন্ট ও হিজামা থেরাপিতে বিশেষ প্রশিক্ষণপ্রাপ্ত।</div>
+          <div class="doc-tags">
+            <span class="doc-tag" contenteditable="true">লেজার থেরাপি</span>
+            <span class="doc-tag" contenteditable="true">হিজামা</span>
+            <span class="doc-tag" contenteditable="true">স্কিন কেয়ার</span>
+          </div>
+          <div class="doc-contact">
+            <button class="dc-btn dc-call" onclick="window.location='tel:+8801998972774'"><i class="fas fa-phone"></i> কল করুন</button>
+            <a href="https://wa.me/8801998972774?text=ডাক্তারের সাথে কথা বলতে চাই" class="dc-btn dc-wa" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Doctor 2 — Placeholder -->
+      <div class="doc-card">
+        <div class="doc-img" style="background:linear-gradient(135deg,#fce4ec,#f8bbd9)">
+          👩‍⚕️
+          <div class="doc-badge" contenteditable="true">✅ MBBS, ফেসিয়াল স্পেশালিস্ট</div>
+        </div>
+        <div class="doc-body">
+          <div class="doc-name" contenteditable="true" title="ক্লিক করে সরাসরি নাম এডিট করুন">ডা. [নাম যোগ করুন]</div>
+          <div class="doc-title" contenteditable="true" title="ক্লিক করে পদবী এডিট করুন">MBBS | ফেসিয়াল ও স্কিন কেয়ার বিশেষজ্ঞ</div>
+          <div class="doc-bio" contenteditable="true" title="ক্লিক করে বিবরণ এডিট করুন">ফেসিয়াল ট্রিটমেন্ট ও স্কিন কেয়ারে বিশেষজ্ঞ। ব্রণ, দাগ ও স্কিন রিজুভেনেশনে দক্ষ।</div>
+          <div class="doc-tags">
+            <span class="doc-tag" contenteditable="true">ফেসিয়াল কেয়ার</span>
+            <span class="doc-tag" contenteditable="true">ব্রণ চিকিৎসা</span>
+            <span class="doc-tag" contenteditable="true">স্কিন গ্লো</span>
+          </div>
+          <div class="doc-contact">
+            <button class="dc-btn dc-call" onclick="window.location='tel:+8801998972774'"><i class="fas fa-phone"></i> কল করুন</button>
+            <a href="https://wa.me/8801998972774" class="dc-btn dc-wa" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add More Doctor -->
+      <div class="doc-add" onclick="alert('আরো ডাক্তারের তথ্য যোগ করতে আমাকে জানান!')">
+        <i class="fas fa-user-plus"></i>
+        <span>আরো ডাক্তার যোগ করুন</span>
+        <small>আপনার টিমের আরো ডাক্তারের তথ্য যোগ করতে ক্লিক করুন</small>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- BANNER -->
+<div id="banner">
+  <div class="ban-t"><h2>🎯 প্রথম ভিজিটে ২০% ছাড়!</h2><p>সীমিত সময়ের অফার — আজই বুক করুন</p></div>
+  <div class="ban-b">
+    <a href="#appointment" class="bb1">এখনই বুক করুন</a>
+    <a href="https://wa.me/8801998972774?text=আমি ২০% ছাড়ে অ্যাপয়েন্টমেন্ট নিতে চাই" class="bb2" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp করুন</a>
+  </div>
+</div>
+
+<!-- WHY -->
+<section id="why">
+  <div class="why-inn">
+    <div class="sec-top">
+      <div class="sec-tag">⭐ আমাদের বিশেষত্ব</div>
+      <div class="sec-h2">কেন আমাদের বেছে নেবেন?</div>
+      <div class="sec-p">আমরা শুধু চিকিৎসা দিই না, আমরা আপনার আত্মবিশ্বাস ফিরিয়ে দিই</div>
+    </div>
+    <div class="why-grid">
+      <div class="wc"><span class="wc-ico">👨‍⚕️</span><h4>MBBS ডাক্তার</h4><p>সকল চিকিৎসা অভিজ্ঞ MBBS ডাক্তারের সরাসরি তত্ত্বাবধানে পরিচালিত।</p></div>
+      <div class="wc"><span class="wc-ico">🔬</span><h4>আধুনিক লেজার</h4><p>FDA অনুমোদিত সর্বাধুনিক মেডিকেল গ্রেড লেজার মেশিন ব্যবহার।</p></div>
+      <div class="wc"><span class="wc-ico">🛡️</span><h4>সম্পূর্ণ নিরাপদ</h4><p>স্টেরাইল পরিবেশে নিরাপদ, পার্শ্বপ্রতিক্রিয়ামুক্ত চিকিৎসা।</p></div>
+      <div class="wc"><span class="wc-ico">💰</span><h4>সাশ্রয়ী মূল্য</h4><p>উন্নতমানের চিকিৎসা সম্পূর্ণ সাশ্রয়ী মূল্যে।</p></div>
+      <div class="wc"><span class="wc-ico">⚡</span><h4>দ্রুত ফলাফল</h4><p>মাত্র ১-৩ সেশনে দৃশ্যমান পরিবর্তন। স্থায়ী সমাধান নিশ্চিত।</p></div>
+      <div class="wc"><span class="wc-ico">📞</span><h4>২৪/৭ সাপোর্ট</h4><p>চিকিৎসার পরও যেকোনো সময় WhatsApp-এ প্রশ্ন করুন।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div style="max-width:1300px;margin:auto">
+    <div class="sec-top">
+      <div class="sec-tag">💬 রোগীর মতামত</div>
+      <div class="sec-h2">আমাদের রোগীরা কী বলেন</div>
+      <div class="sec-p">সত্যিকারের রোগীদের অভিজ্ঞতা</div>
+    </div>
+    <div class="rev-grid">
+      <div class="rc"><div class="rc-q">❝</div><div class="rc-stars">★★★★★</div><p class="rc-txt">"আমার মুখে অনেকদিন ধরে আঁচিল ছিল। লেজার ট্রিটমেন্টের পর মাত্র এক সপ্তাহেই পুরোপুরি ভালো হয়ে গেছি। ডাক্তার সাহেব অনেক ভালো।"</p><div class="rc-auth"><div class="rav">র</div><div><div class="rav-n">রাফিয়া বেগম</div><div class="rav-l">ঢাকা</div></div></div></div>
+      <div class="rc"><div class="rc-q">❝</div><div class="rc-stars">★★★★★</div><p class="rc-txt">"হিজামা থেরাপি নিয়ে আমার পিঠের ব্যথা অনেকটাই কমে গেছে। পরিবেশ পরিষ্কার এবং ডাক্তার অনেক দক্ষ। অবশ্যই রেকমেন্ড করব।"</p><div class="rc-auth"><div class="rav">ক</div><div><div class="rav-n">করিম সাহেব</div><div class="rav-l">চট্টগ্রাম</div></div></div></div>
+      <div class="rc"><div class="rc-q">❝</div><div class="rc-stars">★★★★★</div><p class="rc-txt">"ব্রণের সমস্যায় অনেক কষ্ট পাচ্ছিলাম। এখানে ট্রিটমেন্ট নেওয়ার পর অনেক ভালো লাগছে। মূল্যও সাশ্রয়ী।"</p><div class="rc-auth"><div class="rav">ন</div><div><div class="rav-n">নাফিসা আক্তার</div><div class="rav-l">সিলেট</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== LOCATION & GOOGLE MAP SECTION ===== -->
+<section id="location" style="padding:70px 24px;background:#fff;border-top:1.5px solid #fce4ec">
+  <div style="max-width:1250px;margin:auto">
+    <div class="sec-top">
+      <div class="sec-tag"><i class="fas fa-map-marker-alt"></i> আমাদের চেম্বার ও অবস্থান</div>
+      <div class="sec-h2">সরাসরি গুগল ম্যাপে ডিরেকশন ও চেম্বারের ঠিকানা</div>
+      <div class="sec-p">গুগল ম্যাপের ডিরেকশন দেখে সহজেই আমাদের অফিসে চলে আসুন</div>
+    </div>
+
+    <!-- Map Info Card & Interactive Map Container -->
+    <div style="background:#fff8f9;border:1.5px solid #fce4ec;border-radius:24px;overflow:hidden;box-shadow:0 15px 45px rgba(196,105,121,0.12)">
+      <!-- Address Header Bar above Map -->
+      <div style="padding:24px 28px;background:linear-gradient(135deg,#fff,#fff0f3);border-bottom:1.5px solid #fce4ec;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
+        <div>
+          <div style="font-size:12px;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">
+            <i class="fas fa-location-dot"></i> চেম্বারের অফিসিয়াল ঠিকানা
+          </div>
+          <h3 style="font-size:22px;font-weight:800;color:var(--dark);margin-bottom:4px">
+            ৪/ক, আজিমপুর রোড, ঢাকা ১২১১
+          </h3>
+          <p style="font-size:14px;color:var(--gray)">
+            প্লাস কোড (Google Plus Code): <strong style="color:var(--red);background:#fff;padding:2px 8px;border-radius:6px;border:1px solid #fce4ec">P9CQ+8H Dhaka</strong> | আজিমপুর রোড, ঢাকা
+          </p>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a href="https://maps.app.goo.gl/VUvGGX8AhzGHqopF9" target="_blank" class="btn-appt" style="padding:12px 24px;font-size:14px;box-shadow:0 6px 20px rgba(196,105,121,0.35);display:inline-flex;align-items:center;gap:8px;text-decoration:none">
+            <i class="fas fa-diamond-turn-right" style="font-size:16px"></i> সরাসরি ডিরেকশন দেখুন (Google Maps)
+          </a>
+          <a href="https://wa.me/8801301809347" target="_blank" class="btn-wa" style="padding:12px 20px;font-size:14px;background:#25d366;text-decoration:none">
+            <i class="fab fa-whatsapp"></i> 01301-809347
+          </a>
+        </div>
+      </div>
+
+      <!-- Google Maps Embed & Interactive Direction View -->
+      <div style="position:relative;width:100%;height:450px;background:#eee">
+        <iframe 
+          src="https://maps.google.com/maps?q=P9CQ%2B8H+Dhaka&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+          width="100%" 
+          height="100%" 
+          style="border:0;display:block" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <!-- Floating overlay direction button on map -->
+        <a href="https://maps.app.goo.gl/VUvGGX8AhzGHqopF9" target="_blank" style="position:absolute;bottom:20px;left:20px;background:rgba(255,255,255,0.95);backdrop-filter:blur(6px);padding:10px 18px;border-radius:50px;box-shadow:0 8px 24px rgba(0,0,0,0.25);font-size:13px;font-weight:700;color:var(--red);text-decoration:none;display:flex;align-items:center;gap:8px;border:1px solid #fce4ec;transition:all .2s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+          <i class="fas fa-map-marked-alt" style="font-size:16px"></i> সরাসরি অফিসে আসার ডিরেকশন খুলুন <i class="fas fa-external-link-alt" style="font-size:11px"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPOINTMENT -->
+<section id="appointment">
+  <div class="appt-inn">
+    <div class="appt-l">
+      <div style="display:inline-block;background:var(--rose);color:var(--red);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:700;margin-bottom:12px">📅 অ্যাপয়েন্টমেন্ট</div>
+      <h2>আজই যোগাযোগ করুন</h2>
+      <p>দেরি না করে এখনই যোগাযোগ করুন। WhatsApp বা Messenger-এ সরাসরি মেসেজ করুন।</p>
+      <div class="ci-list">
+        <div class="ci"><div class="ci-ic"><i class="fas fa-phone"></i></div><div><strong>8801998972774</strong><span><a href="tel:+8801998972774" style="color:inherit;text-decoration:none">সরাসরি কল করুন</a></span></div></div>
+        <div class="ci"><div class="ci-ic wa"><i class="fab fa-whatsapp"></i></div><div><strong>WhatsApp করুন</strong><span><a href="https://wa.me/8801998972774" target="_blank" style="color:inherit;text-decoration:none">8801998972774 — যেকোনো সময়</a></span></div></div>
+        <div class="ci"><div class="ci-ic ms"><i class="fab fa-facebook-messenger"></i></div><div><strong>Messenger করুন</strong><span>facebook.com/[পেজের নাম]</span></div></div>
+        <a href="https://maps.app.goo.gl/VUvGGX8AhzGHqopF9" target="_blank" style="text-decoration:none;color:inherit"><div class="ci"><div class="ci-ic"><i class="fas fa-map-marker-alt"></i></div><div><strong>৪/ক, আজিমপুর রোড, ঢাকা ১২১১</strong><span>গুগল ম্যাপে ডিরেকশন দেখুন (P9CQ+8H Dhaka)</span></div></div></a>
+        <div class="ci"><div class="ci-ic"><i class="fas fa-clock"></i></div><div><strong>শনি–বৃহস্পতি: সকাল ৯টা – রাত ৯টা</strong><span>শুক্রবার বন্ধ</span></div></div>
+      </div>
+    </div>
+    <div class="appt-form">
+      <h3>📋 অ্যাপয়েন্টমেন্ট ফর্ম</h3>
+      <form id="af" onsubmit="submitF(event)">
+        <div class="fg-row">
+          <div class="fg"><label>আপনার নাম *</label><input type="text" id="fn" placeholder="পূর্ণ নাম" required/></div>
+          <div class="fg"><label>ফোন নম্বর *</label><input type="tel" placeholder="01XXXXXXXXX" required/></div>
+        </div>
+        <div class="fg"><label>সেবা নির্বাচন *</label>
+          <select id="fs" required>
+            <option value="">-- সেবা বেছে নিন --</option>
+            <option>লেজার ট্রিটমেন্ট (আঁচিল/তিল)</option>
+            <option>লেজার ট্রিটমেন্ট (দাগ/পিগমেন্টেশন)</option>
+            <option>হিজামা থেরাপি</option>
+            <option>ব্রণ ট্রিটমেন্ট</option>
+            <option>স্কিন ব্রাইটেনিং</option>
+            <option>ফেসিয়াল রিজুভেনেশন</option>
+            <option>স্কিন কনসালটেশন</option>
+          </select>
+        </div>
+        <div class="fg-row">
+          <div class="fg">
+            <label>পছন্দের তারিখ *</label>
+            <input type="date" id="fdate" required />
+          </div>
+          <div class="fg">
+            <label>পছন্দের সময় স্লট *</label>
+            <select id="ftime" required>
+              <option value="">-- সময় নির্বাচন করুন --</option>
+              <option value="সকাল ০৯:০০ - ১০:০০">সকাল ০৯:০০ - ১০:০০</option>
+              <option value="সকাল ১০:০০ - ১১:০০">সকাল ১০:০০ - ১১:০০</option>
+              <option value="সকাল ১১:০০ - ১২:০০">সকাল ১১:০০ - ১২:০০</option>
+              <option value="দুপুর ১২:০০ - ০১:০০">দুপুর ১২:০০ - ০১:০০</option>
+              <option value="বিকাল ০৪:০০ - ০৫:০০">বিকাল ০৪:০০ - ০৫:০০</option>
+              <option value="বিকাল ০৫:০০ - ০৬:০০">বিকাল ০৫:০০ - ০৬:০০</option>
+              <option value="সন্ধ্যা ০৭:০০ - ০৮:০০">সন্ধ্যা ০৭:০০ - ০৮:০০</option>
+              <option value="রাত ০৮:০০ - ০৯:০০">রাত ০৮:০০ - ০৯:০০</option>
+            </select>
+          </div>
+        </div>
+        <div class="fg">
+          <label>সমস্যার বিস্তারিত বিবরণ (লক্ষণ ও পূর্বের চিকিৎসা)</label>
+          <textarea rows="4" id="fdesc" placeholder="আপনার মুখের সমস্যা, দাগ, আঁচিল, তিল বা হিজামার প্রয়োজনীয়তা সংক্ষেপে লিখুন..."></textarea>
+        </div>
+        <button type="submit" class="sub-btn"><i class="fas fa-calendar-check"></i> অ্যাপয়েন্টমেন্ট নিশ্চিত করুন</button>
+        <div class="ok-box" id="okb">✅ ধন্যবাদ! আমরা শীঘ্রই যোগাযোগ করব।</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="site-footer">
+  <div class="foot-inn">
+    <div class="foot-brand">
+      <a href="#" class="fb-logo">🏥 HijamaPlus</a>
+      <p>MBBS ডাক্তারের তত্ত্বাবধানে আধুনিক লেজার ও হিজামা চিকিৎসা। আপনার সৌন্দর্য ও স্বাস্থ্য আমাদের লক্ষ্য।</p>
+      <div class="fsocs">
+        <a href="#" class="fs"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="fs"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/8801301809347" class="fs" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.youtube.com/watch?v=zLwYYgv9pJ4" class="fs" target="_blank" title="YouTube চ্যানেল"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="fs"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+    <div class="fc"><h5>সেবাসমূহ</h5><ul>
+      <li><a href="#">লেজার ট্রিটমেন্ট</a></li>
+      <li><a href="#">হিজামা থেরাপি</a></li>
+      <li><a href="#">ব্রণ চিকিৎসা</a></li>
+      <li><a href="#">স্কিন ব্রাইটেনিং</a></li>
+      <li><a href="#">স্কার রিমুভাল</a></li>
+    </ul></div>
+    <div class="fc"><h5>দরকারি লিংক</h5><ul>
+      <li><a href="#hero">হোম</a></li>
+      <li><a href="#services">সেবা</a></li>
+      <li><a href="#clinic">ক্লিনিক</a></li>
+      <li><a href="#doctors">ডাক্তার</a></li>
+      <li><a href="#appointment">যোগাযোগ</a></li>
+    </ul></div>
+    <div class="fc"><h5>চেম্বার সময়</h5><ul>
+      <li><a href="#">শনি–বৃহস্পতি</a></li>
+      <li><a href="#">সকাল ৯টা – রাত ৯টা</a></li>
+      <li><a href="#" style="color:#f87171">শুক্রবার: বন্ধ</a></li>
+    </ul></div>
+  </div>
+  <div class="fbot">
+    <p>© ২০২৪ HijamaPlus | সকল স্বত্ব সংরক্ষিত।</p>
+    <p>তৈরি করেছে ❤️ Antigravity AI</p>
+  </div>
+</footer>
+</div><!-- end #website-root -->
+
+<!-- ===== UNIFIED FLOATING WIDGET (BOTTOM RIGHT) ===== -->
+<div class="floats" id="site-floats">
+
+  <!-- Chat Window (Auto-Open on Page Entry) -->
+  <div id="cs-chat-window" class="cs-chat-window">
+    <div class="cs-header">
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="cs-avatar">👩‍💼</div>
+        <div>
+          <h4 style="margin:0;font-size:15px;color:#fff;font-weight:800">Laser Glow Queen সাপোর্ট</h4>
+          <span style="font-size:11px;color:#4ade80"><i class="fas fa-circle" style="font-size:8px"></i> অনলাইন আছেন</span>
+        </div>
+      </div>
+      <button onclick="toggleCustomerChat()" class="cs-close-btn" title="চ্যাট মিনিমাইজ করুন">&times;</button>
+    </div>
+    
+    <div class="cs-body" id="cs-messages">
+      <!-- Auto welcome message -->
+      <div class="cs-msg bot-msg">
+        <p>👋 <strong>আসসালামু আলাইকুম!</strong></p>
+        <p>Laser Glow Queen-এ আপনাকে স্বাগতম। আপনি কি কোনো নির্দিষ্ট চিকিৎসা বা খরচের তথ্য জানতে চান? যেকোনো প্রশ্ন এখানে সরাসরি লিখে মেসেজ পাঠান বা নিচের বাটনে ট্যাপ করুন:</p>
+      </div>
+      <div class="cs-quick-actions">
+        <a href="https://wa.me/8801998972774?text=আসসালামু%20আলাইকুম,%20আমি%20একটি%20পরামর্শ%20নিতে%20চাই" target="_blank" class="cs-action-btn wa-btn">
+          <i class="fab fa-whatsapp" style="font-size:16px"></i> WhatsApp-এ সরাসরি কথা বলুন
+        </a>
+        <a href="https://m.me/HijamaPlusBD" target="_blank" class="cs-action-btn ms-btn">
+          <i class="fab fa-facebook-messenger" style="font-size:16px"></i> Messenger-এ চ্যাট করুন
+        </a>
+        <a href="tel:+8801998972774" class="cs-action-btn call-btn">
+          <i class="fas fa-phone-alt" style="font-size:14px"></i> সরাসরি কল করুন (8801998972774)
+        </a>
+      </div>
+    </div>
+
+    <div class="cs-footer">
+      <input type="text" id="cs-user-input" placeholder="আপনার প্রশ্ন বা বার্তা লিখুন..." onkeydown="if(event.key==='Enter') sendCustomerMessage()"/>
+      <button onclick="sendCustomerMessage()" title="মেসেজ পাঠান"><i class="fas fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <!-- Action Icons Row: Circular WhatsApp, Messenger, Chat Toggle & Scroll Top -->
+  <div class="float-icons-row">
+    <!-- Chat round button (visible when window is minimized) -->
+    <button id="cs-toggle-btn" class="fl-circle-btn fl-circle-cs" onclick="toggleCustomerChat()" title="লাইভ সাপোর্ট চ্যাট" style="display:none">
+      <div class="cs-unread-badge">১</div>
+      <i class="fas fa-comments"></i>
+    </button>
+
+    <!-- WhatsApp Small Circular Button -->
+    <a href="https://wa.me/8801301809347?text=আমি অ্যাপয়েন্টমেন্ট নিতে চাই" class="fl-circle-btn fl-circle-wa" target="_blank" title="WhatsApp: 01301-809347">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Messenger Small Circular Button -->
+    <a href="https://m.me/HijamaPlusBD" class="fl-circle-btn fl-circle-ms" target="_blank" title="Messenger-এ মেসেজ করুন">
+      <i class="fab fa-facebook-messenger"></i>
+    </a>
+
+    <!-- Scroll to Top Round Button -->
+    <button class="fl-circle-btn fl-top" id="st" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="উপরে যান">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+</div>
+
+<script>
+  // Scroll top
+  window.addEventListener('scroll',()=>{document.getElementById('st').classList.toggle('show',window.scrollY>400)});
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'})}})});
+  // Category filter
+  function filterCat(el,cat){
+    document.querySelectorAll('.cpill').forEach(p=>p.classList.remove('active'));el.classList.add('active');
+    document.querySelectorAll('.sc').forEach(c=>{c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none'});
+  }
+  // Book prefill
+  function book(svc){document.getElementById('fs').value=svc;document.getElementById('appointment').scrollIntoView({behavior:'smooth'})}
+  // Fav toggle
+  document.querySelectorAll('.fav').forEach(b=>{b.addEventListener('click',e=>{e.stopPropagation();b.textContent=b.textContent==='🤍'?'❤️':'🤍'})});
+  // Sub filter
+  document.querySelectorAll('.sfb').forEach(b=>{b.addEventListener('click',()=>{document.querySelectorAll('.sfb').forEach(x=>x.classList.remove('active'));b.classList.add('active')})});
+  // Video play
+  function playVideo(){
+    const box=document.getElementById('videoBox');
+    box.innerHTML='<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;color:rgba(255,255,255,.8);font-size:14px;gap:12px;position:relative;z-index:2"><div style="font-size:48px">📹</div><strong>এখানে আপনার ক্লিনিকের ভিডিও বসান</strong><small>index.html ফাইলে video বা YouTube iframe যুক্ত করুন</small></div>';
+  }
+  // Form submit
+  function submitF(e){
+    e.preventDefault();
+    const btn=e.target.querySelector('.sub-btn');
+    const name = document.getElementById('fn') ? document.getElementById('fn').value : '';
+    const phone = e.target.querySelector('input[type="tel"]') ? e.target.querySelector('input[type="tel"]').value : '';
+    const service = document.getElementById('fs') ? document.getElementById('fs').value : '';
+    const date = document.getElementById('fdate') ? document.getElementById('fdate').value : '';
+    const time = document.getElementById('ftime') ? document.getElementById('ftime').value : '';
+    const desc = document.getElementById('fdesc') ? document.getElementById('fdesc').value : '';
+
+    btn.innerHTML='<i class="fas fa-spinner fa-spin"></i> প্রক্রিয়াকরণ...';
+    btn.disabled=true;
+    if(typeof fbq!=='undefined') fbq('track','Lead',{content_name:service || 'Appointment'});
+
+    setTimeout(()=>{
+      const okb = document.getElementById('okb');
+      okb.innerHTML = `<strong>✅ বুকিং সফল হয়েছে!</strong><br/>রোগীর নাম: ${name} | সেবা: ${service}<br/>তারিখ: ${date || 'নির্ধারিত'} | সময়: ${time}<br/><small>আমরা শীঘ্রই ${phone} নম্বরে নিশ্চিতকরণ কল দেব।</small>`;
+      okb.style.display='block';
+      btn.innerHTML='✅ সফলভাবে বুকিং সম্পন্ন';
+      e.target.reset();
+    },1200);
+  }
+  // Animate on scroll
+  const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)'}})},{threshold:.08});
+  document.querySelectorAll('.sc,.wc,.rc,.ci,.doc-card,.cf').forEach(el=>{el.style.opacity='0';el.style.transform='translateY(22px)';el.style.transition='all .5s ease';obs.observe(el)});
+</script>
+
+<!-- ========================================================
+     👑 ULTRA DYNAMIC ADMIN & LIVE VISUAL BUILDER SYSTEM
+     ======================================================== -->
+<style id="admin-styles">
+  /* Admin Toggle Button */
+  #admin-lock-btn {
+    position: fixed; bottom: 20px; left: 20px; z-index: 99999;
+    background: linear-gradient(135deg, #4a282f, #c46979);
+    color: #fff; border: 2px solid #fff; border-radius: 50px;
+    padding: 10px 18px; font-size: 13px; font-weight: 700;
+    cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    display: flex; align-items: center; gap: 8px; transition: all .3s;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  #admin-lock-btn:hover { transform: scale(1.08); background: #c46979; }
+
+  /* Admin Top Bar */
+  #admin-top-bar {
+    display: none; position: fixed; top: 0; left: 0; right: 0;
+    background: #1e1e24; color: #fff; z-index: 100000;
+    padding: 10px 18px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    font-family: 'Hind Siliguri', sans-serif;
+    align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;
+  }
+  .admin-bar-left { display: flex; align-items: center; gap: 10px; }
+  .admin-badge {
+    background: #f39c12; color: #1e1e24; padding: 4px 10px;
+    border-radius: 20px; font-weight: 800; font-size: 12px;
+  }
+  .admin-bar-btns { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .ad-btn {
+    background: #33333e; color: #fff; border: 1px solid #555;
+    padding: 6px 12px; border-radius: 8px; font-size: 13px; font-weight: 600;
+    cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all .2s;
+    font-family: 'Hind Siliguri', sans-serif; white-space: nowrap;
+  }
+  .ad-btn:hover { background: #474757; border-color: #777; }
+  .ad-btn.active { background: #27ae60; border-color: #2ecc71; color: #fff; }
+  .ad-btn.ad-primary { background: #e91e63; border-color: #ff4081; color: #fff; }
+  .ad-btn.ad-primary:hover { background: #d81b60; }
+  .ad-btn.ad-save { background: #2980b9; border-color: #3498db; }
+  .ad-btn.ad-save:hover { background: #1f618d; }
+  .ad-btn.ad-danger { background: #c0392b; border-color: #e74c3c; }
+
+  /* Mobile and Tablet Responsive for Admin Bar */
+  @media(max-width: 992px) {
+    #admin-top-bar {
+      padding: 8px 10px;
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    .admin-bar-left { display: none; }
+    .admin-bar-btns { flex-wrap: nowrap; }
+    .ad-btn { font-size: 12px; padding: 6px 10px; }
+  }
+
+  /* Edit Mode visual highlights */
+  body.admin-editing [contenteditable="true"] {
+    outline: 2px dashed #e91e63 !important;
+    outline-offset: 3px;
+    border-radius: 4px;
+    cursor: text !important;
+    transition: background .2s;
+  }
+  body.admin-editing [contenteditable="true"]:hover {
+    background: rgba(233, 30, 99, 0.12) !important;
+  }
+  body.admin-editing img {
+    cursor: pointer !important;
+    position: relative;
+    outline: 2px dashed #3498db;
+    outline-offset: 3px;
+  }
+  body.admin-editing img:hover {
+    filter: brightness(0.85);
+  }
+
+  /* Direct Photo Upload Overlay Buttons */
+  .card-upload-overlay {
+    position: absolute; bottom: 8px; right: 8px; z-index: 80;
+    display: none; align-items: center; gap: 5px;
+    background: rgba(30, 30, 36, 0.88); color: #fff;
+    padding: 6px 12px; border-radius: 20px; font-size: 11px; font-weight: 700;
+    cursor: pointer; border: 1.5px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all .2s;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  .card-upload-overlay:hover {
+    background: #e91e63; transform: scale(1.06);
+  }
+  .doc-upload-overlay {
+    position: absolute; top: 10px; right: 10px; z-index: 80;
+    display: none; align-items: center; gap: 5px;
+    background: rgba(30, 30, 36, 0.88); color: #fff;
+    padding: 6px 12px; border-radius: 20px; font-size: 11px; font-weight: 700;
+    cursor: pointer; border: 1.5px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all .2s;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  .doc-upload-overlay:hover {
+    background: #e91e63; transform: scale(1.06);
+  }
+  body.admin-editing .card-upload-overlay,
+  body.admin-editing .doc-upload-overlay,
+  .sc:hover .card-upload-overlay,
+  .doc-card:hover .doc-upload-overlay {
+    display: flex !important;
+  }
+
+  /* Section Hover Toolbar */
+  .section-toolbar {
+    display: none; position: absolute; top: 10px; right: 20px;
+    background: rgba(30, 30, 36, 0.95); padding: 6px 12px; border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); z-index: 1000;
+    gap: 8px; align-items: center;
+  }
+  body.admin-editing section:hover > .section-toolbar,
+  body.admin-editing header:hover > .section-toolbar,
+  body.admin-editing .sc:hover > .card-toolbar {
+    display: flex !important;
+  }
+  .tb-btn {
+    background: #444; color: #fff; border: none; width: 28px; height: 28px;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; font-size: 11px; transition: all .2s;
+  }
+  .tb-btn:hover { background: #e91e63; transform: scale(1.1); }
+  .tb-btn.tb-del:hover { background: #e74c3c; }
+
+  /* Card toolbar */
+  .card-toolbar {
+    display: none; position: absolute; top: 8px; right: 8px; z-index: 100;
+    background: rgba(0,0,0,0.85); padding: 4px 8px; border-radius: 20px; gap: 5px;
+  }
+
+  /* Modals */
+  .ad-modal-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.65); backdrop-filter: blur(4px);
+    z-index: 200000; align-items: center; justify-content: center; padding: 20px;
+  }
+  .ad-modal-box {
+    background: #fff; color: #333; width: 100%; max-width: 520px;
+    border-radius: 16px; padding: 28px; box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    position: relative; max-height: 90vh; overflow-y: auto; font-family: 'Hind Siliguri', sans-serif;
+  }
+  .ad-modal-box h3 { font-size: 20px; font-weight: 800; margin-bottom: 8px; color: #4a282f; }
+  .ad-modal-box p { font-size: 13px; color: #777; margin-bottom: 18px; }
+  .ad-input-grp { margin-bottom: 16px; }
+  .ad-input-grp label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 6px; color: #444; }
+  .ad-input {
+    width: 100%; padding: 10px 14px; border: 1.5px solid #ddd; border-radius: 8px;
+    font-size: 14px; font-family: inherit; outline: none; transition: border .2s;
+  }
+  .ad-input:focus { border-color: #c46979; }
+  .ad-modal-btns { display: flex; justify-content: flex-end; gap: 10px; margin-top: 24px; }
+
+  /* Quick Notification Toast */
+  #admin-toast {
+    position: fixed; bottom: 30px; right: 30px; z-index: 300000;
+    background: #1e1e24; color: #fff; padding: 12px 24px; border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4); font-size: 14px; font-weight: 600;
+    transform: translateY(100px); opacity: 0; transition: all .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    display: flex; align-items: center; gap: 10px; border-left: 5px solid #27ae60;
+  }
+  #admin-toast.show { transform: translateY(0); opacity: 1; }
+
+  /* Custom Dynamic Landing Modal */
+  #custom-landing-modal .ad-modal-box { max-width: 750px; }
+
+  /* Section Visibility Manager */
+  .vis-list { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+  .vis-item {
+    display: flex; align-items: center; justify-content: space-between;
+    background: #f8f9fa; border: 1.5px solid #eee; padding: 10px 14px;
+    border-radius: 10px; transition: all .2s;
+  }
+  .vis-item:hover { background: #fff0f3; border-color: #fce4ec; }
+  .vis-name { font-weight: 700; font-size: 14px; color: #333; }
+  .vis-btn {
+    border: none; padding: 6px 14px; border-radius: 20px; font-size: 12px;
+    font-weight: 700; cursor: pointer; display: flex; align-items: center;
+    gap: 6px; transition: all .2s; font-family: inherit;
+  }
+  .vis-btn.shown { background: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
+  .vis-btn.shown:hover { background: #c8e6c9; }
+  .vis-btn.hidden { background: #ffebee; color: #c62828; border: 1px solid #ffcdd2; }
+  .vis-btn.hidden:hover { background: #ffcdd2; }
+
+  /* In Admin Mode, visual indicator for hidden sections */
+  body.admin-editing .section-is-hidden {
+    display: block !important;
+    opacity: 0.45 !important;
+    filter: grayscale(0.8) !important;
+    position: relative;
+    border: 3px dashed #ef4444 !important;
+  }
+  body.admin-editing .section-is-hidden::after {
+    content: '🚫 এই সেকশনটি দর্শকদের জন্য লুকানো আছে (Hidden) — আবার দেখাতে চোখের আইকনে ক্লিক করুন';
+    position: absolute; top: 12px; left: 50%; transform: translateX(-50%);
+    background: #ef4444; color: #fff; padding: 6px 16px; border-radius: 20px;
+    font-size: 12px; font-weight: 800; z-index: 9999; pointer-events: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  }
+
+  /* ===== UNIFIED FLOATING WIDGET CLUSTER (BOTTOM RIGHT) ===== */
+  .floats {
+    position: fixed; right: 20px; bottom: 20px; z-index: 99990;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+  }
+  .float-icons-row {
+    display: flex; align-items: center; gap: 10px; justify-content: flex-end;
+  }
+  .fl-circle-btn {
+    width: 48px; height: 48px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff; text-decoration: none; border: 2.5px solid #fff;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.22); cursor: pointer;
+    transition: all .25s ease; position: relative;
+  }
+  .fl-circle-btn:hover { transform: scale(1.1); }
+  .fl-circle-wa {
+    background: #25d366; font-size: 24px;
+    box-shadow: 0 6px 20px rgba(37,211,102,.55);
+    animation: waPulse 2.5s infinite;
+  }
+  .fl-circle-wa:hover { background: #1db954; }
+  .fl-circle-ms {
+    background: linear-gradient(135deg, #0084ff, #44bec7); font-size: 22px;
+    box-shadow: 0 6px 20px rgba(0,132,255,.45);
+  }
+  .fl-circle-ms:hover { background: linear-gradient(135deg, #0070da, #349eb5); }
+  .fl-circle-cs {
+    background: linear-gradient(135deg, var(--red, #c46979), #9e4d5c); font-size: 20px;
+    box-shadow: 0 6px 20px rgba(196,105,121,.45);
+  }
+  .fl-top {
+    width: 42px; height: 42px; background: var(--dark, #4a282f); font-size: 15px;
+    border: 2px solid #fff; display: none; box-shadow: 0 4px 15px rgba(0,0,0,.25);
+  }
+  .fl-top.show { display: flex; }
+
+  /* Customer Support Chat Window (Open by default above circular buttons) */
+  .cs-chat-window {
+    display: flex; flex-direction: column;
+    width: 340px; max-width: calc(100vw - 32px); height: 430px; background: #fff;
+    border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden; border: 1.5px solid #fce4ec; animation: slideUpFade .3s ease;
+    margin-bottom: 4px;
+  }
+  @keyframes slideUpFade { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+  .cs-header {
+    background: linear-gradient(135deg, #128c7e, #075e54);
+    padding: 14px 18px; color: #fff; display: flex; align-items: center;
+    justify-content: space-between;
+  }
+  .cs-avatar {
+    width: 38px; height: 38px; border-radius: 50%; background: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+  }
+  .cs-close-btn {
+    background: transparent; border: none; color: #fff; font-size: 24px;
+    cursor: pointer; line-height: 1; padding: 2px 6px; border-radius: 6px;
+    transition: opacity .2s;
+  }
+  .cs-close-btn:hover { opacity: 0.8; }
+  .cs-body {
+    padding: 16px; flex: 1; overflow-y: auto; background: #efeae2;
+    background-image: radial-gradient(#d4cdc2 1px, transparent 1px);
+    background-size: 16px 16px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .cs-msg {
+    background: #fff; padding: 12px 14px; border-radius: 14px 14px 14px 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06); font-size: 13px; line-height: 1.6; color: #333;
+  }
+  .cs-msg p { margin-bottom: 6px; }
+  .cs-msg p:last-child { margin-bottom: 0; }
+  .cs-user-msg {
+    align-self: flex-end; background: #dcf8c6; border-radius: 14px 14px 2px 14px;
+  }
+  .cs-quick-actions { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+  .cs-action-btn {
+    display: flex; align-items: center; gap: 8px; padding: 10px 14px;
+    border-radius: 10px; font-size: 12px; font-weight: 700; text-decoration: none;
+    transition: all .2s; justify-content: center;
+  }
+  .cs-action-btn.wa-btn { background: #25d366; color: #fff; }
+  .cs-action-btn.wa-btn:hover { background: #1eb954; }
+  .cs-action-btn.ms-btn { background: #0084ff; color: #fff; }
+  .cs-action-btn.ms-btn:hover { background: #0070da; }
+  .cs-action-btn.call-btn { background: #e91e63; color: #fff; }
+  .cs-action-btn.call-btn:hover { background: #d81b60; }
+  .cs-footer {
+    display: flex; gap: 8px; padding: 10px 14px; background: #f0f2f5;
+    border-top: 1px solid #ddd;
+  }
+  .cs-footer input {
+    flex: 1; padding: 8px 12px; border: 1.5px solid #ccc; border-radius: 20px;
+    font-size: 13px; font-family: inherit; outline: none;
+  }
+  .cs-footer button {
+    background: #128c7e; color: #fff; border: none; width: 36px; height: 36px;
+    border-radius: 50%; cursor: pointer; display: flex; align-items: center;
+    justify-content: center; transition: all .2s;
+  }
+  .cs-footer button:hover { background: #075e54; }
+  .cs-unread-badge {
+    position: absolute; top: -5px; right: -5px;
+    background: #ef4444; color: #fff; width: 22px; height: 22px;
+    border-radius: 50%; font-size: 11px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    border: 2px solid #fff; animation: pulseBadge 1.8s infinite;
+  }
+  @keyframes pulseBadge { 0%,100%{transform:scale(1)} 50%{transform:scale(1.2)} }
+
+  /* ===== OFFER PUSH NOTIFICATION CARD ===== */
+  .offer-push-card {
+    position: fixed; top: 24px; right: 24px; z-index: 100000;
+    width: 360px; max-width: calc(100vw - 32px); background: #ffffff;
+    border-radius: 18px; box-shadow: 0 15px 45px rgba(0, 0, 0, 0.22);
+    border: 1.5px solid #fce4ec; padding: 20px; font-family: 'Hind Siliguri', sans-serif;
+    animation: slideDownIn 0.4s ease-out;
+  }
+  @keyframes slideDownIn {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .push-close-btn {
+    position: absolute; top: 10px; right: 12px; background: none; border: none;
+    font-size: 22px; line-height: 1; color: #999; cursor: pointer; padding: 4px;
+    transition: color 0.2s;
+  }
+  .push-close-btn:hover { color: #333; }
+  .push-card-body {
+    display: flex; gap: 14px; align-items: flex-start; margin-bottom: 16px; margin-top: 4px;
+  }
+  .push-icon-box {
+    width: 44px; height: 44px; border-radius: 12px;
+    background: linear-gradient(135deg, #c46979, #9e4d5c); color: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+    flex-shrink: 0; box-shadow: 0 4px 12px rgba(196, 105, 121, 0.35);
+    animation: bellShake 2.5s infinite;
+  }
+  @keyframes bellShake {
+    0%, 100% { transform: rotate(0); }
+    10%, 30% { transform: rotate(14deg); }
+    20%, 40% { transform: rotate(-14deg); }
+    50% { transform: rotate(0); }
+  }
+  .push-text-box h4 {
+    margin: 0 0 6px; font-size: 16px; font-weight: 800; color: var(--dark, #4a282f);
+    line-height: 1.35; padding-right: 15px;
+  }
+  .push-text-box p {
+    margin: 0; font-size: 13px; color: #666; line-height: 1.5;
+  }
+  .push-allow-btn {
+    width: 100%; background: linear-gradient(135deg, #25d366, #128c7e); color: #fff;
+    border: none; border-radius: 50px; padding: 12px 20px; font-size: 14px; font-weight: 700;
+    cursor: pointer; box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    font-family: inherit; transition: all 0.2s;
+  }
+  .push-allow-btn:hover {
+    background: #1db954; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+  }
+
+  /* Admin lock button hidden while maintaining password protection via double click / shortcut */
+  #admin-lock-btn {
+    display: none !important;
+  }
+</style>
+
+<!-- Admin Top Bar -->
+<div id="admin-top-bar">
+  <div class="admin-bar-left">
+    <span class="admin-badge"><i class="fas fa-crown"></i> এডমিন প্যানেল</span>
+    <span style="font-size:12px;color:#aaa">ডাবল ক্লিক করে টেক্সট ও ছবি এডিট করুন</span>
+  </div>
+  <div class="admin-bar-btns">
+    <button class="ad-btn" id="btn-toggle-edit" onclick="toggleEditMode()">
+      <i class="fas fa-pen"></i> <span id="txt-edit-mode">এডিট মোড চালু করুন</span>
+    </button>
+    <button class="ad-btn" onclick="openDoctorContactModal()">
+      <i class="fas fa-user-md"></i> ডাক্তার ও যোগাযোগের তথ্য
+    </button>
+    <button class="ad-btn" onclick="openSectionVisibilityModal()" style="background:#4a154b;border-color:#611f69">
+      <i class="fas fa-eye"></i> সেকশন হাইড/শো (👁️)
+    </button>
+    <button class="ad-btn" onclick="openYouTubeConfigModal()" style="background:#b91c1c;border-color:#dc2626">
+      <i class="fab fa-youtube"></i> ইউটিউব লাইভ/ভিডিও পরিবর্তন
+    </button>
+    <button class="ad-btn" onclick="openMetaPixelModal()">
+      <i class="fas fa-chart-line"></i> মেটা পিক্সেল (Pixel)
+    </button>
+    <button class="ad-btn" onclick="openThemeColorModal()">
+      <i class="fas fa-palette"></i> কালার পরিবর্তন
+    </button>
+    <button class="ad-btn" onclick="openAddSectionModal()">
+      <i class="fas fa-plus-circle"></i> নতুন সেকশন যোগ
+    </button>
+    <button class="ad-btn" onclick="openAddServiceModal()">
+      <i class="fas fa-tag"></i> নতুন সার্ভিস/প্রোডাক্ট
+    </button>
+    <button class="ad-btn" onclick="openAddNavModal()">
+      <i class="fas fa-bars"></i> হেডারে মেনু/পেজ যোগ
+    </button>
+    <button class="ad-btn ad-save" onclick="saveAdminChanges()">
+      <i class="fas fa-save"></i> সেভ করুন
+    </button>
+    <button class="ad-btn ad-primary" onclick="exportUpdatedHTML()">
+      <i class="fas fa-file-download"></i> ফাইল ডাউনলোড
+    </button>
+    <button class="ad-btn" onclick="resetToOriginal()" title="আগের অবস্থায় ফিরে যান">
+      <i class="fas fa-undo"></i> রিসেট
+    </button>
+    <button class="ad-btn ad-danger" onclick="logoutAdmin()">
+      <i class="fas fa-sign-out-alt"></i> লগআউট
+    </button>
+  </div>
+</div>
+
+<!-- 1. Admin Login Modal -->
+<div class="ad-modal-overlay" id="modal-admin-login">
+  <div class="ad-modal-box">
+    <h3><i class="fas fa-lock" style="color:#c46979"></i> এডমিন লগইন</h3>
+    <p>ওয়েবসাইটের যেকোনো কিছু সরাসরি পরিবর্তন বা এডিট করতে পাসওয়ার্ড দিন।</p>
+    <div class="ad-input-grp">
+      <label>এডমিন পাসওয়ার্ড</label>
+      <input type="password" id="admin-pwd-input" class="ad-input" placeholder="পাসওয়ার্ড লিখুন (ডিফল্ট: admin123)" onkeydown="if(event.key==='Enter') verifyAdminPassword()"/>
+      <small style="color:#888;display:block;margin-top:6px">ডিফল্ট পাসওয়ার্ড: <b>admin123</b></small>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-admin-login')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="verifyAdminPassword()"><i class="fas fa-unlock"></i> লগইন করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 2. Image Editor Modal -->
+<div class="ad-modal-overlay" id="modal-img-edit">
+  <div class="ad-modal-box">
+    <h3><i class="fas fa-image" style="color:#3498db"></i> ছবি পরিবর্তন করুন</h3>
+    <p>ইমেজ লিঙ্ক (URL) দিন অথবা আপনার কম্পিউটার থেকে ছবি সিলেক্ট করুন।</p>
+    <div class="ad-input-grp">
+      <label>কম্পিউটার থেকে ছবি আপলোড করুন</label>
+      <input type="file" id="img-file-input" class="ad-input" accept="image/*" onchange="previewLocalImage(event)"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>অথবা ছবির সরাসরি URL পেস্ট করুন</label>
+      <input type="text" id="img-url-input" class="ad-input" placeholder="https://example.com/photo.jpg"/>
+    </div>
+    <div style="margin:12px 0;text-align:center">
+      <label style="display:block;font-size:12px;margin-bottom:6px">ছবির প্রিভিউ:</label>
+      <img id="img-preview" src="" style="max-height:160px;max-width:100%;border-radius:10px;border:1px solid #ddd;object-fit:cover;display:none;margin:auto"/>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-img-edit')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="applyImageChange()"><i class="fas fa-check"></i> ছবি আপডেট করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 3. Theme & Colors Modal -->
+<div class="ad-modal-overlay" id="modal-theme-color">
+  <div class="ad-modal-box">
+    <h3><i class="fas fa-palette" style="color:#e91e63"></i> কালার পরিবর্তন করুন</h3>
+    <p>ওয়েবসাইটের মূল থিম ও সেকশনের ব্যাকগ্রাউন্ড কালার নিজের ইচ্ছামতো পছন্দ করুন।</p>
+    <div class="ad-input-grp">
+      <label>প্রাইমারি থিম কালার (বাটন, হেডিং, বর্ডার):</label>
+      <div style="display:flex;gap:10px;align-items:center">
+        <input type="color" id="color-primary" value="#c46979" style="width:50px;height:40px;border:none;cursor:pointer"/>
+        <input type="text" id="color-primary-hex" class="ad-input" value="#c46979" oninput="document.getElementById('color-primary').value=this.value"/>
+      </div>
+    </div>
+    <div class="ad-input-grp">
+      <label>টপবার এবং অ্যাকসেন্ট কালার:</label>
+      <div style="display:flex;gap:10px;align-items:center">
+        <input type="color" id="color-secondary" value="#9e4d5c" style="width:50px;height:40px;border:none;cursor:pointer"/>
+        <input type="text" id="color-secondary-hex" class="ad-input" value="#9e4d5c" oninput="document.getElementById('color-secondary').value=this.value"/>
+      </div>
+    </div>
+    <div class="ad-input-grp">
+      <label>ওয়েবসাইট বডি ব্যাকগ্রাউন্ড কালার:</label>
+      <div style="display:flex;gap:10px;align-items:center">
+        <input type="color" id="color-bg" value="#ffffff" style="width:50px;height:40px;border:none;cursor:pointer"/>
+        <input type="text" id="color-bg-hex" class="ad-input" value="#ffffff" oninput="document.getElementById('color-bg').value=this.value"/>
+      </div>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-theme-color')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="applyThemeColors()"><i class="fas fa-check"></i> কালার প্রয়োগ করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 4. Add New Section Modal -->
+<div class="ad-modal-overlay" id="modal-add-section">
+  <div class="ad-modal-box">
+    <h3><i class="fas fa-plus-circle" style="color:#27ae60"></i> নতুন সেকশন যুক্ত করুন</h3>
+    <p>ওয়েবসাইটে যে ধরণের সেকশন যোগ করতে চান তা নির্বাচন করুন:</p>
+    <div class="ad-input-grp">
+      <label>সেকশনের ধরণ</label>
+      <select id="new-sec-type" class="ad-input">
+        <option value="banner">১. অফার / ব্যানার সেকশন (ব্যানার হেডিং, টেক্সট, বাটন ও ব্যাকগ্রাউন্ড কালার)</option>
+        <option value="video">২. ভিডিও সেকশন (ইউটিউব বা কাস্টম ভিডিও প্লেয়ার)</option>
+        <option value="feature">৩. বিশেষ ফিচার / ল্যান্ডিং ব্লক (ছবি ও বিস্তারিত তথ্য)</option>
+        <option value="cta">৪. কল-টু-অ্যাকশন / যোগাযোগ সেকশন</option>
+      </select>
+    </div>
+    <div class="ad-input-grp">
+      <label>সেকশনের শিরোনাম (Title)</label>
+      <input type="text" id="new-sec-title" class="ad-input" placeholder="যেমন: আমাদের বিশেষ ডিসকাউন্ট অফার"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>সেকশনের বিবরণ (Description)</label>
+      <textarea id="new-sec-desc" class="ad-input" rows="3" placeholder="বিস্তারিত বিবরণ লিখুন..."></textarea>
+    </div>
+    <div class="ad-input-grp" id="new-sec-extra-grp">
+      <label>অতিরিক্ত লিঙ্ক / ভিডিও লিঙ্ক (ঐচ্ছিক)</label>
+      <input type="text" id="new-sec-extra" class="ad-input" placeholder="যেমন: YouTube Embed URL বা লিঙ্ক"/>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-add-section')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="addNewSection()"><i class="fas fa-plus"></i> সেকশন তৈরি করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 5. Add New Service / Product Modal -->
+<div class="ad-modal-overlay" id="modal-add-service">
+  <div class="ad-modal-box">
+    <h3><i class="fas fa-tag" style="color:#f39c12"></i> নতুন সার্ভিস বা প্রোডাক্ট যুক্ত করুন</h3>
+    <p>নাম, দাম, ছবি ও বিবরণ দিয়ে নতুন কার্ড তৈরি করুন।</p>
+    <div class="ad-input-grp">
+      <label>সার্ভিস / প্রোডাক্টের নাম</label>
+      <input type="text" id="new-svc-name" class="ad-input" placeholder="যেমন: অ্যাডভান্সড স্কিন গ্লো ট্রিটমেন্ট"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>ক্যাটাগরি</label>
+      <select id="new-svc-cat" class="ad-input">
+        <option value="laser">লেজার ট্রিটমেন্ট</option>
+        <option value="hijama">হিজামা থেরাপি</option>
+        <option value="skin">স্কিন কেয়ার</option>
+        <option value="hair">হেয়ার ট্রিটমেন্ট</option>
+      </select>
+    </div>
+    <div class="ad-input-grp">
+      <label>বিবরণ (সংক্ষিপ্ত)</label>
+      <input type="text" id="new-svc-desc" class="ad-input" placeholder="ট্রিটমেন্টের সংক্ষিপ্ত বিবরণ..."/>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+      <div class="ad-input-grp">
+        <label>বর্তমান দাম (৳)</label>
+        <input type="text" id="new-svc-price" class="ad-input" placeholder="যেমন: ৳১,৯৯৯"/>
+      </div>
+      <div class="ad-input-grp">
+        <label>আগের দাম (ঐচ্ছিক ডিসকাউন্ট)</label>
+        <input type="text" id="new-svc-oldprice" class="ad-input" placeholder="যেমন: ৳২,৯৯৯"/>
+      </div>
+    </div>
+    <div class="ad-input-grp">
+      <label>ব্যাজ (ঐচ্ছিক, যেমন: অফার, বেস্ট সেলার, নতুন)</label>
+      <input type="text" id="new-svc-badge" class="ad-input" placeholder="যেমন: ৩০% অফার"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>ছবির URL (বা পরে কার্ডের ছবিতে ক্লিক করে আপলোড করতে পারবেন)</label>
+      <input type="text" id="new-svc-img" class="ad-input" placeholder="ছবির লিঙ্ক (খালি রাখলে ডিফল্ট আইকন থাকবে)"/>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-add-service')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="addNewService()"><i class="fas fa-check"></i> সার্ভিস কার্ড যোগ করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 6. Add Header Nav Item / Custom Landing Page Modal -->
+<div class="ad-modal-overlay" id="modal-add-nav">
+  <div class="ad-modal-box">
+    <h3><i class="fas fa-bars" style="color:#8e44ad"></i> হেডারে নতুন মেনু ও পেজ যোগ করুন</h3>
+    <p>হেডার মেনুতে নতুন বাটন যোগ করুন যা পেজের যেকোনো সেকশনে যাবে অথবা একটি কাস্টম ল্যান্ডিং পেজ খুলবে।</p>
+    <div class="ad-input-grp">
+      <label>মেনুর নাম</label>
+      <input type="text" id="new-nav-title" class="ad-input" placeholder="যেমন: স্পেশাল প্যাকেজ / আমাদের গ্যালারি"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>মেনুর ধরণ</label>
+      <select id="new-nav-action" class="ad-input" onchange="toggleNavCustomPageFields()">
+        <option value="landing">কাস্টম পপআপ ল্যান্ডিং পেজ (ছবি, ভিডিও ও তথ্যসহ)</option>
+        <option value="link">সেকশন লিঙ্ক (যেমন: #services বা বাইরের লিংক)</option>
+      </select>
+    </div>
+    <div id="nav-landing-fields">
+      <div class="ad-input-grp">
+        <label>ল্যান্ডিং পেজের হেডিং</label>
+        <input type="text" id="new-nav-page-title" class="ad-input" placeholder="ল্যান্ডিং পেজের বিস্তারিত শিরোনাম"/>
+      </div>
+      <div class="ad-input-grp">
+        <label>ল্যান্ডিং পেজের টেক্সট / বিবরণ</label>
+        <textarea id="new-nav-page-desc" class="ad-input" rows="3" placeholder="সম্পূর্ণ বিবরণ লিখুন..."></textarea>
+      </div>
+      <div class="ad-input-grp">
+        <label>ভিডিও বা ছবির লিঙ্ক (ঐচ্ছিক)</label>
+        <input type="text" id="new-nav-page-media" class="ad-input" placeholder="YouTube Embed URL অথবা Image URL"/>
+      </div>
+    </div>
+    <div id="nav-link-fields" style="display:none">
+      <div class="ad-input-grp">
+        <label>লিঙ্ক URL (যেমন: #services বা https://...)</label>
+        <input type="text" id="new-nav-link-url" class="ad-input" placeholder="#services"/>
+      </div>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-add-nav')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="addNewNavItem()"><i class="fas fa-plus"></i> মেনু অপশন যোগ করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 7. Dynamic Custom Landing Popup Modal (User facing) -->
+<div class="ad-modal-overlay" id="custom-landing-modal">
+  <div class="ad-modal-box">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+      <h3 id="custom-landing-title" style="margin:0">কাস্টম পেজ</h3>
+      <button class="ad-btn" onclick="closeModal('custom-landing-modal')"><i class="fas fa-times"></i></button>
+    </div>
+    <div id="custom-landing-media-box" style="margin-bottom:16px;border-radius:12px;overflow:hidden"></div>
+    <div id="custom-landing-content" style="line-height:1.8;font-size:15px;color:#444"></div>
+    <div style="margin-top:20px;text-align:right">
+      <button class="ad-btn ad-primary" onclick="closeModal('custom-landing-modal');book('কাস্টম প্যাকেজ')">অ্যাপয়েন্টমেন্ট নিন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 8. Doctor & Contact Info Modal -->
+<div class="ad-modal-overlay" id="modal-doctor-contact">
+  <div class="ad-modal-box" style="max-width:620px">
+    <h3><i class="fas fa-user-md" style="color:#c46979"></i> ডাক্তার ও যোগাযোগের তথ্য এডিট</h3>
+    <p>ডাক্তারদের নাম, পদবী, চেম্বারের ঠিকানা ও ফোন নম্বর সরাসরি পরিবর্তন করুন।</p>
+    
+    <div style="background:#fff5f7;padding:12px;border-radius:10px;margin-bottom:14px;border:1px solid #fce4ec">
+      <h4 style="color:#c46979;margin-bottom:8px;font-size:15px"><i class="fas fa-user-doctor"></i> ডাক্তার ১ (লেজার ও হিজামা বিশেষজ্ঞ)</h4>
+      <div class="ad-input-grp">
+        <label>ডাক্তার ১ এর নাম:</label>
+        <input type="text" id="doc1-name-input" class="ad-input" placeholder="যেমন: ডা. মারুফ হাসান"/>
+      </div>
+      <div class="ad-input-grp">
+        <label>ডাক্তার ১ এর পদবী ও ডিগ্রি:</label>
+        <input type="text" id="doc1-title-input" class="ad-input" placeholder="যেমন: MBBS, DDV (চর্ম ও যৌন রোগ বিশেষজ্ঞ)"/>
+      </div>
+      <div class="ad-input-grp">
+        <label>ডাক্তার ১ এর বিবরণ:</label>
+        <textarea id="doc1-bio-input" class="ad-input" rows="2" placeholder="অভিজ্ঞতা ও বিশেষত্বের বিবরণ..."></textarea>
+      </div>
+    </div>
+
+    <div style="background:#fff5f7;padding:12px;border-radius:10px;margin-bottom:14px;border:1px solid #fce4ec">
+      <h4 style="color:#c46979;margin-bottom:8px;font-size:15px"><i class="fas fa-user-doctor"></i> ডাক্তার ২ (ফেসিয়াল ও স্কিন বিশেষজ্ঞ)</h4>
+      <div class="ad-input-grp">
+        <label>ডাক্তার ২ এর নাম:</label>
+        <input type="text" id="doc2-name-input" class="ad-input" placeholder="যেমন: ডা. ফারহানা চৌধুরী"/>
+      </div>
+      <div class="ad-input-grp">
+        <label>ডাক্তার ২ এর পদবী ও ডিগ্রি:</label>
+        <input type="text" id="doc2-title-input" class="ad-input" placeholder="যেমন: MBBS | ফেসিয়াল ও স্কিন কেয়ার বিশেষজ্ঞ"/>
+      </div>
+      <div class="ad-input-grp">
+        <label>ডাক্তার ২ এর বিবরণ:</label>
+        <textarea id="doc2-bio-input" class="ad-input" rows="2" placeholder="অভিজ্ঞতা ও বিশেষত্বের বিবরণ..."></textarea>
+      </div>
+    </div>
+
+    <div style="background:#f8f9fa;padding:12px;border-radius:10px;margin-bottom:14px;border:1px solid #e9ecef">
+      <h4 style="color:#2c3e50;margin-bottom:8px;font-size:15px"><i class="fas fa-hospital"></i> ক্লিনিক ও যোগাযোগের ঠিকানা</h4>
+      <div class="ad-input-grp">
+        <label>চেম্বারের ঠিকানা:</label>
+        <input type="text" id="clinic-address-input" class="ad-input" placeholder="যেমন: ধানমন্ডি ২৭, ঢাকা"/>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div class="ad-input-grp">
+          <label>হেল্পলাইন / ফোন নম্বর:</label>
+          <input type="text" id="clinic-phone-input" class="ad-input" placeholder="01301-809347"/>
+        </div>
+        <div class="ad-input-grp">
+          <label>ফেসবুক পেজ / মেসেঞ্জার লিংক:</label>
+          <input type="text" id="clinic-fb-input" class="ad-input" placeholder="facebook.com/yourpage"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-doctor-contact')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="saveDoctorContactInfo()"><i class="fas fa-save"></i> তথ্য আপডেট করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 9. Section Visibility (Show/Hide with Eye Icon) Manager Modal -->
+<div class="ad-modal-overlay" id="modal-section-visibility">
+  <div class="ad-modal-box" style="max-width:580px">
+    <h3><i class="fas fa-eye" style="color:#611f69"></i> সেকশন প্রদর্শন ও লুকানো (হাইড/শো)</h3>
+    <p>যে সেকশনটি দর্শকদের জন্য বন্ধ বা হাইড করতে চান, সেটির ডানপাশের চোখের আইকনে (👁️) ক্লিক করুন। আবার ক্লিক করলে চালু হবে।</p>
+    
+    <div class="vis-list" id="vis-sections-container">
+      <!-- Populated dynamically via JS -->
+    </div>
+
+    <div class="ad-modal-btns" style="margin-top:20px">
+      <button class="ad-btn" onclick="closeModal('modal-section-visibility')">বন্ধ করুন</button>
+      <button class="ad-btn ad-primary" onclick="closeModal('modal-section-visibility');saveAdminChanges()"><i class="fas fa-save"></i> সেভ করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- 10. Meta Pixel Configuration Modal -->
+<div class="ad-modal-overlay" id="modal-meta-pixel">
+  <div class="ad-modal-box" style="max-width:520px">
+    <h3><i class="fas fa-chart-line" style="color:#1877f2"></i> মেটা পিক্সেল (Meta Pixel) সেটআপ</h3>
+    <p>আপনার ফেসবুক বিজ্ঞাপন ও ভিজিটর ট্র্যাক করার জন্য মেটা পিক্সেল আইডি দিন।</p>
+    
+    <div class="ad-input-grp">
+      <label>মেটা পিক্সেল আইডি (Meta Pixel ID):</label>
+      <input type="text" id="meta-pixel-id-input" class="ad-input" placeholder="যেমন: 123456789012345"/>
+      <small style="color:#888;display:block;margin-top:6px">আইডি বসালে স্বয়ংক্রিয়ভাবে PageView ও Lead ইভেন্ট ট্র্যাক হবে।</small>
+    </div>
+
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-meta-pixel')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="saveMetaPixelConfig()"><i class="fas fa-check"></i> পিক্সেল সক্রিয় করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- OFFER PUSH NOTIFICATION PROMPT MODAL / CARD -->
+<div id="offer-push-prompt" class="offer-push-card" style="display:none">
+  <button class="push-close-btn" onclick="dismissPushPrompt()" title="বন্ধ করুন">&times;</button>
+  <div class="push-card-body">
+    <div class="push-icon-box">
+      <i class="fas fa-bell"></i>
+    </div>
+    <div class="push-text-box">
+      <h4>পরবর্তী অফার পেতে এলাও বাটনে ক্লিক করুন</h4>
+      <p>লেজার ও হিজামা ট্রিটমেন্টে ২০%-৫০% বিশেষ ছাড় এবং আকর্ষণীয় অফার সরাসরি সবার আগে পান।</p>
+    </div>
+  </div>
+  <div class="push-card-action">
+    <button class="push-allow-btn" onclick="acceptPushNotification()">
+      <i class="fas fa-check-circle"></i> এলাও করুন (Allow)
+    </button>
+  </div>
+</div>
+
+<!-- YOUTUBE VIDEO & LIVE CONFIG MODAL -->
+<div class="ad-modal-overlay" id="modal-youtube-config">
+  <div class="ad-modal-box">
+    <h3><i class="fab fa-youtube" style="color:#ff0000"></i> ইউটিউব ভিডিও ও লাইভ স্ট্রিম কন্ট্রোল</h3>
+    <p>আপনার ইউটিউব ভিডিও অথবা লাইভ স্ট্রিমের ইউআরএল (URL) দিন। এটি ওয়েবসাইটের প্লেয়ারটিতে তাৎক্ষণিকভাবে আপডেট হবে।</p>
+    <div class="ad-input-grp">
+      <label>ইউটিউব ভিডিও বা লাইভ লিঙ্ক (Video / Live URL)</label>
+      <input type="text" id="yt-video-url-input" class="ad-input" placeholder="https://www.youtube.com/watch?v=zLwYYgv9pJ4 অথবা https://youtube.com/live/..."/>
+      <small style="color:#888;display:block;margin-top:4px">যেকোনো ইউটিউব ভিডিও, লাইভ স্ট্রিম, শর্টস বা এমবেড লিংক সাপোর্ট করে।</small>
+    </div>
+    <div class="ad-input-grp">
+      <label>চ্যানেল সাবস্ক্রাইব লিঙ্ক</label>
+      <input type="text" id="yt-channel-url-input" class="ad-input" placeholder="https://www.youtube.com/watch?v=zLwYYgv9pJ4"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>সেকশন শিরোনাম (Title)</label>
+      <input type="text" id="yt-title-input" class="ad-input" placeholder="আমাদের YouTube চ্যানেল ভিজিট ও সাবস্ক্রাইব করুন"/>
+    </div>
+    <div class="ad-input-grp">
+      <label>সংক্ষিপ্ত বিবরণ (Description)</label>
+      <textarea id="yt-desc-input" class="ad-input" rows="2" placeholder="ত্বকের যত্ন ও আধুনিক লেজার ট্রিটমেন্ট সম্পর্কিত সচেতনতামূলক ভিডিও দেখতে..."></textarea>
+    </div>
+    <div class="ad-modal-btns">
+      <button class="ad-btn" onclick="closeModal('modal-youtube-config')">বাতিল</button>
+      <button class="ad-btn ad-primary" onclick="saveYouTubeConfig()"><i class="fas fa-check"></i> প্লেয়ার আপডেট ও সেভ করুন</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast notification -->
+<div id="admin-toast">
+  <i class="fas fa-check-circle" style="color:#2ecc71;font-size:18px"></i>
+  <span id="toast-msg">পরিবর্তন সফলভাবে সংরক্ষিত হয়েছে!</span>
+</div>
+
+<!-- ========================================================
+     ADMIN CONTROLLER JAVASCRIPT
+     ======================================================== -->
+<script>
+  let adminPassword = localStorage.getItem('lgq_admin_pwd') || 'admin123';
+  let isAdminLoggedIn = false;
+  let isEditMode = false;
+  let currentEditingImg = null;
+
+  // 1. Double click listener on document to trigger admin
+  document.addEventListener('dblclick', function(e) {
+    if (e.target.closest('#admin-top-bar') || e.target.closest('.ad-modal-overlay')) return;
+    if (!isAdminLoggedIn) {
+      openAdminLoginModal();
+    } else {
+      toggleEditMode();
+    }
+  });
+
+  // Keyboard shortcut Ctrl + Shift + A
+  document.addEventListener('keydown', function(e) {
+    if (e.ctrlKey && e.shiftKey && e.code === 'KeyA') {
+      e.preventDefault();
+      if (!isAdminLoggedIn) openAdminLoginModal();
+      else toggleEditMode();
+    }
+  });
+
+  function showToast(msg) {
+    const toast = document.getElementById('admin-toast');
+    document.getElementById('toast-msg').innerHTML = msg;
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 3500);
+  }
+
+  function openAdminLoginModal() {
+    if (isAdminLoggedIn) {
+      showToast('আপনি ইতিমধ্যে এডমিন হিসেবে লগইন আছেন!');
+      return;
+    }
+    document.getElementById('modal-admin-login').style.display = 'flex';
+    document.getElementById('admin-pwd-input').focus();
+  }
+
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+  }
+
+  function verifyAdminPassword() {
+    const pwd = document.getElementById('admin-pwd-input').value;
+    if (pwd === adminPassword) {
+      isAdminLoggedIn = true;
+      closeModal('modal-admin-login');
+      document.getElementById('admin-top-bar').style.display = 'flex';
+      document.getElementById('admin-lock-btn').style.display = 'none';
+      showToast('👑 এডমিন লগইন সফল! এডিট করতে "এডিট মোড চালু করুন" বাটনে চাপুন।');
+      toggleEditMode(true);
+    } else {
+      alert('ভুল পাসওয়ার্ড! সঠিক পাসওয়ার্ড দিন (ডিফল্ট: admin123)');
+    }
+  }
+
+  function logoutAdmin() {
+    isAdminLoggedIn = false;
+    toggleEditMode(false);
+    document.getElementById('admin-top-bar').style.display = 'none';
+    document.getElementById('admin-lock-btn').style.display = 'flex';
+    showToast('লগআউট সম্পন্ন হয়েছে।');
+  }
+
+  // 2. Toggle Live Edit Mode
+  function toggleEditMode(forceState) {
+    if (!isAdminLoggedIn) return;
+    isEditMode = (forceState !== undefined) ? forceState : !isEditMode;
+    const body = document.body;
+    const btn = document.getElementById('btn-toggle-edit');
+    const txt = document.getElementById('txt-edit-mode');
+
+    if (isEditMode) {
+      body.classList.add('admin-editing');
+      btn.classList.add('active');
+      txt.textContent = 'এডিট মোড সক্রিয় (ক্লিক করে এডিট করুন)';
+      enableInPlaceEditing(true);
+      attachSectionToolbars();
+      applyHiddenSections();
+      showToast('✏️ এডিট মোড চালু হয়েছে! যে কোনো লেখার উপর ক্লিক করে সরাসরি টাইপ করুন বা ছবিতে ক্লিক করুন।');
+    } else {
+      body.classList.remove('admin-editing');
+      btn.classList.remove('active');
+      txt.textContent = 'এডিট মোড চালু করুন';
+      enableInPlaceEditing(false);
+      removeSectionToolbars();
+      applyHiddenSections();
+      showToast('ভিউ মোডে ফিরে এসেছেন।');
+    }
+  }
+
+  function enableInPlaceEditing(enable) {
+    const root = document.getElementById('website-root') || document.body;
+
+    // Comprehensive selector covering EVERY piece of text in every corner
+    const editableSelectors = [
+      'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'span', 'strong', 'b', 'em', 'small', 'a', 'label', 'li', 'button',
+      '.doc-name', '.doc-title', '.doc-bio', '.doc-badge', '.doc-tag', '.doc-add span',
+      '.ci strong', '.ci span', '.cf-txt h4', '.cf-txt p',
+      '.mi strong', '.mi span', '.mi .ico',
+      '.cpill', '.cpill span', '.sfb',
+      '.sc-name', '.sc-desc', '.amt', '.val', '.old-price', '.offer-badge', '.sc-tag', '.lbl',
+      '.btn-appt', '.hb1', '.hb2', '.topbar', '.topbar span', '.topbar a', '.fbot p', '.sec-tag', '.sec-h2', '.sec-p'
+    ].join(', ');
+
+    root.querySelectorAll(editableSelectors).forEach(el => {
+      if (el.closest('#admin-top-bar') || el.closest('.ad-modal-overlay') || el.closest('#admin-lock-btn') || el.closest('.section-toolbar') || el.closest('.card-toolbar') || el.closest('.card-upload-overlay') || el.closest('.doc-upload-overlay')) return;
+      el.setAttribute('contenteditable', enable ? 'true' : 'false');
+      el.setAttribute('spellcheck', 'false');
+    });
+
+    if (enable) {
+      setupCardUploadButtons();
+      document.querySelectorAll('img').forEach(img => {
+        if (img.closest('#admin-top-bar') || img.closest('.ad-modal-overlay')) return;
+        img.onclick = function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          openImageEditor(img);
+        };
+      });
+    } else {
+      document.querySelectorAll('img').forEach(img => {
+        img.onclick = null;
+      });
+    }
+  }
+
+  function setupCardUploadButtons() {
+    // 1. Service Cards photo upload button
+    document.querySelectorAll('.sc .sc-img').forEach(imgBox => {
+      if (imgBox.querySelector('.card-upload-overlay')) return;
+      imgBox.style.position = 'relative';
+      const label = document.createElement('label');
+      label.className = 'card-upload-overlay';
+      label.innerHTML = '<i class="fas fa-camera"></i> ছবি আপলোড <input type="file" accept="image/*" style="display:none" onchange="uploadCardPhoto(event, this)"/>';
+      imgBox.appendChild(label);
+    });
+
+    // 2. Doctor Cards photo upload button
+    document.querySelectorAll('.doc-card .doc-img').forEach(docBox => {
+      if (docBox.querySelector('.doc-upload-overlay')) return;
+      docBox.style.position = 'relative';
+      const label = document.createElement('label');
+      label.className = 'doc-upload-overlay';
+      label.innerHTML = '<i class="fas fa-camera"></i> ডাক্তার ছবি <input type="file" accept="image/*" style="display:none" onchange="uploadDocPhoto(event, this)"/>';
+      docBox.appendChild(label);
+    });
+  }
+
+  function uploadCardPhoto(event, input) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const container = input.closest('.sc-img');
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      let img = container.querySelector('img');
+      if (img) {
+        img.src = e.target.result;
+      } else {
+        img = document.createElement('img');
+        img.src = e.target.result;
+        img.alt = 'সার্ভিস ছবি';
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.objectFit = 'cover';
+        img.style.display = 'block';
+        container.prepend(img);
+      }
+      saveAdminChanges();
+      showToast('✅ নতুন সার্ভিস ছবি সফলভাবে পরিবর্তন ও সেভ হয়েছে!');
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function uploadDocPhoto(event, input) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const container = input.closest('.doc-img');
+    const reader = new FileReader();
+    reader.onload = function(e) {
+      let img = container.querySelector('img');
+      if (img) {
+        img.src = e.target.result;
+      } else {
+        container.childNodes.forEach(n => {
+          if (n.nodeType === Node.TEXT_NODE) n.textContent = '';
+        });
+        img = document.createElement('img');
+        img.src = e.target.result;
+        img.alt = 'ডাক্তারের ছবি';
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.objectFit = 'cover';
+        img.style.borderRadius = '18px 18px 0 0';
+        img.style.display = 'block';
+        container.prepend(img);
+      }
+      saveAdminChanges();
+      showToast('✅ ডাক্তারের ছবি সফলভাবে পরিবর্তন ও সেভ হয়েছে!');
+    };
+    reader.readAsDataURL(file);
+  }
+
+  function openDoctorContactModal() {
+    const docNames = document.querySelectorAll('.doc-name');
+    const docTitles = document.querySelectorAll('.doc-title');
+    const docBios = document.querySelectorAll('.doc-bio');
+
+    if (docNames[0]) document.getElementById('doc1-name-input').value = docNames[0].textContent.trim();
+    if (docTitles[0]) document.getElementById('doc1-title-input').value = docTitles[0].textContent.trim();
+    if (docBios[0]) document.getElementById('doc1-bio-input').value = docBios[0].textContent.trim();
+
+    if (docNames[1]) document.getElementById('doc2-name-input').value = docNames[1].textContent.trim();
+    if (docTitles[1]) document.getElementById('doc2-title-input').value = docTitles[1].textContent.trim();
+    if (docBios[1]) document.getElementById('doc2-bio-input').value = docBios[1].textContent.trim();
+
+    const ciItems = document.querySelectorAll('.ci');
+    if (ciItems.length >= 4) {
+      const phoneEl = ciItems[0].querySelector('strong');
+      if (phoneEl) document.getElementById('clinic-phone-input').value = phoneEl.textContent.trim();
+
+      const fbEl = ciItems[2].querySelector('span');
+      if (fbEl) document.getElementById('clinic-fb-input').value = fbEl.textContent.trim();
+
+      const addrEl = ciItems[3].querySelector('strong');
+      if (addrEl) document.getElementById('clinic-address-input').value = addrEl.textContent.trim();
+    }
+
+    document.getElementById('modal-doctor-contact').style.display = 'flex';
+  }
+
+  function saveDoctorContactInfo() {
+    const docNames = document.querySelectorAll('.doc-name');
+    const docTitles = document.querySelectorAll('.doc-title');
+    const docBios = document.querySelectorAll('.doc-bio');
+
+    const d1Name = document.getElementById('doc1-name-input').value;
+    const d1Title = document.getElementById('doc1-title-input').value;
+    const d1Bio = document.getElementById('doc1-bio-input').value;
+
+    const d2Name = document.getElementById('doc2-name-input').value;
+    const d2Title = document.getElementById('doc2-title-input').value;
+    const d2Bio = document.getElementById('doc2-bio-input').value;
+
+    const clinicAddr = document.getElementById('clinic-address-input').value;
+    const clinicPhone = document.getElementById('clinic-phone-input').value;
+    const clinicFb = document.getElementById('clinic-fb-input').value;
+
+    if (docNames[0] && d1Name) docNames[0].textContent = d1Name;
+    if (docTitles[0] && d1Title) docTitles[0].textContent = d1Title;
+    if (docBios[0] && d1Bio) docBios[0].textContent = d1Bio;
+
+    if (docNames[1] && d2Name) docNames[1].textContent = d2Name;
+    if (docTitles[1] && d2Title) docTitles[1].textContent = d2Title;
+    if (docBios[1] && d2Bio) docBios[1].textContent = d2Bio;
+
+    const ciItems = document.querySelectorAll('.ci');
+    if (ciItems.length >= 4) {
+      if (clinicPhone) {
+        const p1 = ciItems[0].querySelector('strong');
+        if (p1) p1.textContent = clinicPhone;
+        const p2 = ciItems[1].querySelector('span');
+        if (p2) p2.textContent = clinicPhone + ' — যেকোনো সময়';
+      }
+      if (clinicFb) {
+        const fb = ciItems[2].querySelector('span');
+        if (fb) fb.textContent = clinicFb;
+      }
+      if (clinicAddr) {
+        const addr = ciItems[3].querySelector('strong');
+        if (addr) addr.textContent = clinicAddr;
+      }
+    }
+
+    const clinicFeatureAddr = document.querySelector('.cf-txt p');
+    if (clinicFeatureAddr && clinicAddr) {
+      clinicFeatureAddr.textContent = `${clinicAddr} — সহজে পৌঁছানো যায়। Google Maps-এ দেখুন।`;
+    }
+
+    closeModal('modal-doctor-contact');
+    saveAdminChanges();
+    showToast('👨‍⚕️ ডাক্তার ও যোগাযোগের তথ্য সফলভাবে আপডেট ও সেভ করা হয়েছে!');
+  }
+
+  // Section toolbars (delete, move up, move down, change bg, show/hide eye icon)
+  function attachSectionToolbars() {
+    removeSectionToolbars();
+    const sections = document.querySelectorAll('section, #hero, #cats, #subf, #services, #clinic, #youtube-channel, #location, #pricing, #process, #reviews, #doctors, #appointment, footer, .topbar, nav, .floats, .custom-added-section');
+    sections.forEach((sec, idx) => {
+      if (sec.id === 'admin-top-bar' || sec.closest('.ad-modal-overlay') || sec.closest('#customer-support-widget')) return;
+      sec.style.position = 'relative';
+
+      const tb = document.createElement('div');
+      tb.className = 'section-toolbar';
+      tb.innerHTML = `
+        <span style="color:#aaa;font-size:11px;margin-right:4px">সেকশন #${idx+1}</span>
+        <button class="tb-btn" title="হাইড/শো (চোখের আইকন)" onclick="quickToggleSection(this.parentElement.parentElement)"><i class="fas fa-eye"></i></button>
+        <button class="tb-btn" title="সেকশনের ব্যাকগ্রাউন্ড কালার পরিবর্তন" onclick="promptSectionBg(this.parentElement.parentElement)"><i class="fas fa-fill-drip"></i></button>
+        <button class="tb-btn" title="উপরে নিন" onclick="moveElement(this.parentElement.parentElement, -1)"><i class="fas fa-arrow-up"></i></button>
+        <button class="tb-btn" title="নিচে নিন" onclick="moveElement(this.parentElement.parentElement, 1)"><i class="fas fa-arrow-down"></i></button>
+        <button class="tb-btn tb-del" title="সেকশন ডিলিট করুন" onclick="deleteElement(this.parentElement.parentElement)"><i class="fas fa-trash"></i></button>
+      `;
+      sec.prepend(tb);
+    });
+
+    // Attach card toolbars
+    document.querySelectorAll('.sc').forEach(card => {
+      const ctb = document.createElement('div');
+      ctb.className = 'card-toolbar';
+      ctb.innerHTML = `
+        <button class="tb-btn" title="দাম বাড়ান (+১০০)" onclick="adjustCardPrice(this.parentElement.parentElement, 100);event.stopPropagation()"><i class="fas fa-plus"></i></button>
+        <button class="tb-btn" title="দাম কমান (-১০০)" onclick="adjustCardPrice(this.parentElement.parentElement, -100);event.stopPropagation()"><i class="fas fa-minus"></i></button>
+        <button class="tb-btn" title="ডুপ্লিকেট করুন" onclick="duplicateCard(this.parentElement.parentElement);event.stopPropagation()"><i class="fas fa-clone"></i></button>
+        <button class="tb-btn tb-del" title="ডিলিট কার্ড" onclick="deleteElement(this.parentElement.parentElement);event.stopPropagation()"><i class="fas fa-trash"></i></button>
+      `;
+      card.prepend(ctb);
+    });
+  }
+
+  function removeSectionToolbars() {
+    document.querySelectorAll('.section-toolbar, .card-toolbar').forEach(el => el.remove());
+  }
+
+  function deleteElement(el) {
+    if (confirm('আপনি কি নিশ্চিত যে এই উপাদানটি ডিলিট করতে চান?')) {
+      el.remove();
+      showToast('উপাদানটি সফলভাবে ডিলিট করা হয়েছে!');
+    }
+  }
+
+  function moveElement(el, dir) {
+    if (dir === -1 && el.previousElementSibling) {
+      el.parentNode.insertBefore(el, el.previousElementSibling);
+    } else if (dir === 1 && el.nextElementSibling) {
+      el.parentNode.insertBefore(el.nextElementSibling, el);
+    }
+  }
+
+  function promptSectionBg(sec) {
+    const cur = getComputedStyle(sec).backgroundColor;
+    const newColor = prompt('সেকশনের নতুন ব্যাকগ্রাউন্ড কালার লিখুন (Hex code বা রঙের নাম, যেমন #fff5f7 বা #f8bbd9):', cur);
+    if (newColor) {
+      sec.style.background = newColor;
+      showToast('সেকশনের ব্যাকগ্রাউন্ড কালার আপডেট হয়েছে!');
+    }
+  }
+
+  function adjustCardPrice(card, delta) {
+    const amtEl = card.querySelector('.amt');
+    if (!amtEl) return;
+    const txt = amtEl.textContent.replace(/[^0-9]/g, '');
+    let price = parseInt(txt) || 0;
+    price = Math.max(0, price + delta);
+    amtEl.textContent = '৳' + price.toLocaleString('bn-BD');
+    showToast(`দাম পরিবর্তিত হয়েছে: ৳${price}`);
+  }
+
+  function duplicateCard(card) {
+    const clone = card.cloneNode(true);
+    card.parentNode.insertBefore(clone, card.nextSibling);
+    attachSectionToolbars();
+    enableInPlaceEditing(true);
+    showToast('কার্ডটি সফলভাবে ডুপ্লিকেট করা হয়েছে!');
+  }
+
+  // 3. Image Editor Functions
+  function openImageEditor(img) {
+    currentEditingImg = img;
+    document.getElementById('img-url-input').value = img.src || '';
+    const prev = document.getElementById('img-preview');
+    prev.src = img.src || '';
+    prev.style.display = 'block';
+    document.getElementById('modal-img-edit').style.display = 'flex';
+  }
+
+  function previewLocalImage(event) {
+    const file = event.target.files[0];
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById('img-preview').src = e.target.result;
+        document.getElementById('img-preview').style.display = 'block';
+        document.getElementById('img-url-input').value = e.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+  }
+
+  function applyImageChange() {
+    const url = document.getElementById('img-url-input').value;
+    if (currentEditingImg && url) {
+      currentEditingImg.src = url;
+      closeModal('modal-img-edit');
+      showToast('ছবি সফলভাবে পরিবর্তন করা হয়েছে!');
+    }
+  }
+
+  // 4. Theme Colors
+  function openThemeColorModal() {
+    document.getElementById('modal-theme-color').style.display = 'flex';
+  }
+
+  function applyThemeColors() {
+    const primary = document.getElementById('color-primary').value;
+    const secondary = document.getElementById('color-secondary').value;
+    const bg = document.getElementById('color-bg').value;
+
+    document.documentElement.style.setProperty('--red', primary);
+    document.documentElement.style.setProperty('--red2', primary);
+    document.documentElement.style.setProperty('--red3', secondary);
+    document.body.style.backgroundColor = bg;
+
+    localStorage.setItem('lgq_saved_theme_colors', JSON.stringify({ primary, secondary, bg }));
+    closeModal('modal-theme-color');
+    showToast('🎨 ওয়েবসাইটের রঙসমূহ সফলভাবে পরিবর্তন করা হয়েছে!');
+  }
+
+  // 5. Add New Section
+  function openAddSectionModal() {
+    document.getElementById('modal-add-section').style.display = 'flex';
+  }
+
+  function addNewSection() {
+    const type = document.getElementById('new-sec-type').value;
+    const title = document.getElementById('new-sec-title').value || 'নতুন আকর্ষণীয় সেকশন';
+    const desc = document.getElementById('new-sec-desc').value || 'এখানে আপনার বিস্তারিত বিবরণ ও তথ্য উপস্থাপন করুন।';
+    const extra = document.getElementById('new-sec-extra').value || '';
+
+    const newSec = document.createElement('section');
+    newSec.className = 'custom-added-section';
+    newSec.style.padding = '60px 24px';
+    newSec.style.borderTop = '1px solid #fce4ec';
+    newSec.style.position = 'relative';
+
+    if (type === 'banner') {
+      newSec.style.background = 'linear-gradient(135deg, var(--rose2), var(--rose))';
+      newSec.innerHTML = `
+        <div style="max-width:1100px;margin:auto;text-align:center">
+          <span class="sec-tag" style="background:#fff">অফার ব্যানার</span>
+          <h2 style="font-size:36px;font-weight:800;color:var(--dark);margin:12px 0">${title}</h2>
+          <p style="font-size:16px;color:var(--text);max-width:700px;margin:0 auto 24px">${desc}</p>
+          <a href="#appointment" class="btn-appt" style="display:inline-flex;padding:12px 30px;font-size:16px">এখনই সুযোগটি নিন <i class="fas fa-arrow-right"></i></a>
+        </div>
+      `;
+    } else if (type === 'video') {
+      newSec.style.background = '#1a0a0a';
+      newSec.style.color = '#fff';
+      let videoEmbed = '';
+      if (extra && extra.includes('youtube')) {
+        const ytid = extra.includes('v=') ? extra.split('v=')[1].split('&')[0] : extra.split('/').pop();
+        videoEmbed = `<iframe width="100%" height="450" src="https://www.youtube.com/embed/${ytid}" frameborder="0" allowfullscreen style="border-radius:18px"></iframe>`;
+      } else {
+        videoEmbed = `
+          <div style="aspect-ratio:16/9;background:#2a1118;display:flex;align-items:center;justify-content:center;border-radius:18px;border:2px dashed #e91e63">
+            <div style="text-align:center"><i class="fas fa-play-circle" style="font-size:50px;color:var(--red);margin-bottom:10px"></i><p>ভিডিও লিঙ্ক বা ফাইল যুক্ত করুন</p></div>
+          </div>
+        `;
+      }
+      newSec.innerHTML = `
+        <div style="max-width:1000px;margin:auto;text-align:center">
+          <span class="sec-tag">${title}</span>
+          <h2 style="font-size:32px;font-weight:800;margin:12px 0;color:#fff">${title}</h2>
+          <p style="font-size:15px;color:#ccc;margin-bottom:24px">${desc}</p>
+          <div style="border-radius:18px;overflow:hidden">${videoEmbed}</div>
+        </div>
+      `;
+    } else {
+      newSec.style.background = '#fff';
+      newSec.innerHTML = `
+        <div style="max-width:1200px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
+          <div>
+            <span class="sec-tag">বিশেষ ফিচার</span>
+            <h2 style="font-size:34px;font-weight:800;color:var(--dark);margin:14px 0">${title}</h2>
+            <p style="font-size:16px;color:var(--gray);line-height:1.8;margin-bottom:24px">${desc}</p>
+            <a href="#appointment" class="btn-appt" style="display:inline-flex">বুকিং করুন</a>
+          </div>
+          <div>
+            <img src="${extra || 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80'}" style="width:100%;border-radius:20px;box-shadow:0 15px 40px rgba(0,0,0,0.1)"/>
+          </div>
+        </div>
+      `;
+    }
+
+    const apptSec = document.getElementById('appointment') || document.querySelector('footer');
+    apptSec.parentNode.insertBefore(newSec, apptSec);
+
+    closeModal('modal-add-section');
+    attachSectionToolbars();
+    enableInPlaceEditing(isEditMode);
+    showToast('✅ নতুন সেকশন সফলভাবে যুক্ত করা হয়েছে!');
+  }
+
+  // 6. Add New Service Card
+  function openAddServiceModal() {
+    document.getElementById('modal-add-service').style.display = 'flex';
+  }
+
+  function addNewService() {
+    const name = document.getElementById('new-svc-name').value || 'নতুন সেবা';
+    const cat = document.getElementById('new-svc-cat').value;
+    const desc = document.getElementById('new-svc-desc').value || 'আমাদের মানসম্মত বিশেষ চিকিৎসা সেবা।';
+    const price = document.getElementById('new-svc-price').value || '৳১,৫০০';
+    const oldPrice = document.getElementById('new-svc-oldprice').value;
+    const badge = document.getElementById('new-svc-badge').value;
+    const imgUrl = document.getElementById('new-svc-img').value;
+
+    const grid = document.querySelector('.srv-grid');
+    if (!grid) return;
+
+    const newCard = document.createElement('div');
+    newCard.className = 'sc';
+    newCard.setAttribute('data-cat', cat);
+
+    const imgBlock = imgUrl 
+      ? `<div class="sc-img"><img src="${imgUrl}" alt="${name}"/></div>`
+      : `<div class="sc-img c1"><span style="font-size:60px">✨</span></div>`;
+
+    newCard.innerHTML = `
+      ${badge ? `<div class="sb sb-hot">${badge}</div>` : ''}
+      <button class="fav">🤍</button>
+      ${imgBlock}
+      <div class="sc-body">
+        <div class="sc-name">${name}</div>
+        <div class="sc-desc">${desc}</div>
+        <div class="sc-tags"><span class="sc-tag">প্রিমিয়াম</span></div>
+        <div class="sc-foot">
+          <div class="sc-pr">
+            <span class="lbl">শুরু</span>
+            <span class="amt">${price}</span>
+            ${oldPrice ? `<span class="old-price">${oldPrice}</span>` : ''}
+          </div>
+          <button class="addbtn" onclick="book('${name}')"><i class="fas fa-calendar-check"></i> বুকিং</button>
+        </div>
+      </div>
+    `;
+
+    grid.prepend(newCard);
+    closeModal('modal-add-service');
+    attachSectionToolbars();
+    enableInPlaceEditing(isEditMode);
+    showToast('🏷️ নতুন সার্ভিস কার্ড সফলভাবে যুক্ত করা হয়েছে!');
+  }
+
+  // 7. Add Header Nav Item / Landing Page
+  function openAddNavModal() {
+    document.getElementById('modal-add-nav').style.display = 'flex';
+  }
+
+  function toggleNavCustomPageFields() {
+    const act = document.getElementById('new-nav-action').value;
+    document.getElementById('nav-landing-fields').style.display = (act === 'landing') ? 'block' : 'none';
+    document.getElementById('nav-link-fields').style.display = (act === 'link') ? 'block' : 'none';
+  }
+
+  const customPagesData = {};
+
+  function addNewNavItem() {
+    const title = document.getElementById('new-nav-title').value;
+    if (!title) { alert('মেনুর নাম লিখুন'); return; }
+
+    const act = document.getElementById('new-nav-action').value;
+    const navLinks = document.querySelector('.nav-links');
+    if (!navLinks) return;
+
+    const li = document.createElement('li');
+
+    if (act === 'landing') {
+      const pageTitle = document.getElementById('new-nav-page-title').value || title;
+      const pageDesc = document.getElementById('new-nav-page-desc').value || 'বিস্তারিত তথ্য...';
+      const pageMedia = document.getElementById('new-nav-page-media').value || '';
+      const pageId = 'page_' + Date.now();
+
+      customPagesData[pageId] = { title: pageTitle, desc: pageDesc, media: pageMedia };
+
+      const a = document.createElement('a');
+      a.href = '#';
+      a.textContent = title;
+      a.style.background = 'rgba(196,105,121,0.12)';
+      a.style.color = 'var(--red)';
+      a.style.fontWeight = '700';
+      a.onclick = function(e) {
+        e.preventDefault();
+        openCustomLandingPage(pageId);
+      };
+      li.appendChild(a);
+    } else {
+      const url = document.getElementById('new-nav-link-url').value || '#';
+      const a = document.createElement('a');
+      a.href = url;
+      a.textContent = title;
+      li.appendChild(a);
+    }
+
+    navLinks.appendChild(li);
+    closeModal('modal-add-nav');
+    showToast('🔗 হেডারে নতুন মেনু অপশন সফলভাবে যুক্ত হয়েছে!');
+  }
+
+  function openCustomLandingPage(pageId) {
+    const data = customPagesData[pageId];
+    if (!data) return;
+    document.getElementById('custom-landing-title').textContent = data.title;
+    document.getElementById('custom-landing-content').innerHTML = data.desc.replace(/\n/g, '<br/>');
+
+    const mbox = document.getElementById('custom-landing-media-box');
+    mbox.innerHTML = '';
+    if (data.media) {
+      if (data.media.includes('youtube') || data.media.includes('youtu.be')) {
+        const ytid = data.media.includes('v=') ? data.media.split('v=')[1].split('&')[0] : data.media.split('/').pop();
+        mbox.innerHTML = `<iframe width="100%" height="320" src="https://www.youtube.com/embed/${ytid}" frameborder="0" allowfullscreen></iframe>`;
+      } else {
+        mbox.innerHTML = `<img src="${data.media}" style="width:100%;max-height:350px;object-fit:cover;border-radius:12px"/>`;
+      }
+    }
+    document.getElementById('custom-landing-modal').style.display = 'flex';
+  }
+
+  // 8. Save Changes & Export HTML
+  function saveAdminChanges(silent) {
+    removeSectionToolbars();
+    document.body.classList.remove('admin-editing');
+
+    // Save website root content
+    const rootEl = document.getElementById('website-root');
+    if (rootEl) {
+      localStorage.setItem('lgq_saved_website_root', rootEl.innerHTML);
+    }
+    // Save custom pages data
+    localStorage.setItem('lgq_saved_custom_pages', JSON.stringify(customPagesData));
+
+    if (isEditMode) {
+      document.body.classList.add('admin-editing');
+      attachSectionToolbars();
+    }
+
+    if (!silent) {
+      showToast('💾 সমস্ত পরিবর্তন ব্রাউজারে সফলভাবে সেভ করা হয়েছে! পেজ রিফ্রেশ দিলেও এগুলো অক্ষত থাকবে।');
+    }
+  }
+
+  function resetToOriginal() {
+    if (confirm('আপনি কি পূর্বের মূল ডিজাইনে ফিরে যেতে চান? আপনার লোকাল পরিবর্তনগুলো মুছে যাবে।')) {
+      localStorage.removeItem('lgq_saved_website_root');
+      localStorage.removeItem('lgq_saved_theme_colors');
+      localStorage.removeItem('lgq_saved_custom_pages');
+      location.reload();
+    }
+  }
+
+  function exportUpdatedHTML() {
+    removeSectionToolbars();
+    document.body.classList.remove('admin-editing');
+
+    const cleanHtml = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+    const blob = new Blob([cleanHtml], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'index.html';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+
+    if (isEditMode) {
+      document.body.classList.add('admin-editing');
+      attachSectionToolbars();
+    }
+
+    showToast('📥 আপডেটকৃত সম্পূর্ণ index.html ফাইলটি ডাউনলোড হয়েছে! এটি F:\\New folder (2)\\ এ প্রতিস্থাপন করতে পারেন।');
+  }
+
+  // ==========================================
+  // 👁️ SECTION VISIBILITY MANAGER (SHOW/HIDE)
+  // ==========================================
+  const SECTIONS_CONFIG = [
+    { id: 'topbar', name: 'টপ অফার নোটিফিকেশন বার' },
+    { id: 'navbar', name: 'হেডার ও মেনুবার' },
+    { id: 'hero', name: 'হিরো ও মূল ব্যানার' },
+    { id: 'cats', name: 'সার্ভিস ক্যাটাগরি ফিল্টার' },
+    { id: 'services', name: 'সেবাসমূহ / সার্ভিস গ্রিড' },
+    { id: 'clinic', name: 'ক্লিনিক পরিচিতি ও বৈশিষ্ট্য' },
+    { id: 'youtube-channel', name: 'অফিসিয়াল YouTube চ্যানেল' },
+    { id: 'doctors', name: 'বিশেষজ্ঞ ডাক্তার দল' },
+    { id: 'banner', name: '২০% ছাড়ের বিশেষ ব্যানার' },
+    { id: 'why', name: 'কেন আমাদের বেছে নেবেন' },
+    { id: 'reviews', name: 'রোগীদের রিভিউ ও মতামত' },
+    { id: 'location', name: 'চেম্বারের ঠিকানা ও গুগল ম্যাপ' },
+    { id: 'appointment', name: 'অ্যাপয়েন্টমেন্ট ও যোগাযোগ ফর্ম' },
+    { id: 'site-footer', name: 'ফুটার সেকশন' },
+    { id: 'site-floats', name: 'ভাসমান WhatsApp ও বাটনসমূহ' }
+  ];
+
+  let hiddenSections = JSON.parse(localStorage.getItem('lgq_hidden_sections') || '[]');
+
+  function applyHiddenSections() {
+    SECTIONS_CONFIG.forEach(sec => {
+      const el = document.getElementById(sec.id);
+      if (!el) return;
+      if (hiddenSections.includes(sec.id)) {
+        if (isAdminLoggedIn && isEditMode) {
+          el.classList.add('section-is-hidden');
+          el.style.display = 'block';
+        } else {
+          el.classList.remove('section-is-hidden');
+          el.style.display = 'none';
+        }
+      } else {
+        el.classList.remove('section-is-hidden');
+        el.style.display = '';
+      }
+    });
+  }
+
+  function openSectionVisibilityModal() {
+    renderSectionVisibilityList();
+    document.getElementById('modal-section-visibility').style.display = 'flex';
+  }
+
+  function renderSectionVisibilityList() {
+    const container = document.getElementById('vis-sections-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    SECTIONS_CONFIG.forEach(sec => {
+      const isHidden = hiddenSections.includes(sec.id);
+      const row = document.createElement('div');
+      row.className = 'vis-item';
+      row.innerHTML = `
+        <span class="vis-name">${sec.name}</span>
+        <button class="vis-btn ${isHidden ? 'hidden' : 'shown'}" onclick="toggleSectionVisibility('${sec.id}', this)">
+          <i class="fas ${isHidden ? 'fa-eye-slash' : 'fa-eye'}"></i>
+          <span>${isHidden ? 'লুকানো (Hidden)' : 'দৃশ্যমান (Visible)'}</span>
+        </button>
+      `;
+      container.appendChild(row);
+    });
+  }
+
+  function toggleSectionVisibility(secId, btn) {
+    const idx = hiddenSections.indexOf(secId);
+    if (idx > -1) {
+      hiddenSections.splice(idx, 1);
+      btn.className = 'vis-btn shown';
+      btn.innerHTML = '<i class="fas fa-eye"></i> <span>দৃশ্যমান (Visible)</span>';
+      showToast(`👁️ সেকশনটি এখন সবার সামনে দৃশ্যমান!`);
+    } else {
+      hiddenSections.push(secId);
+      btn.className = 'vis-btn hidden';
+      btn.innerHTML = '<i class="fas fa-eye-slash"></i> <span>লুকানো (Hidden)</span>';
+      showToast(`🚫 সেকশনটি সফলভাবে লুকানো (Hide) হয়েছে!`);
+    }
+    localStorage.setItem('lgq_hidden_sections', JSON.stringify(hiddenSections));
+    applyHiddenSections();
+  }
+
+  function quickToggleSection(secEl) {
+    let targetId = secEl.id;
+    if (!targetId) {
+      const found = SECTIONS_CONFIG.find(s => {
+        const el = document.getElementById(s.id);
+        return el === secEl;
+      });
+      if (found) targetId = found.id;
+    }
+    if (!targetId) return;
+
+    const idx = hiddenSections.indexOf(targetId);
+    if (idx > -1) {
+      hiddenSections.splice(idx, 1);
+      showToast(`👁️ সেকশনটি দৃশ্যমান করা হয়েছে!`);
+    } else {
+      hiddenSections.push(targetId);
+      showToast(`🚫 সেকশনটি দর্শকদের জন্য লুকানো হয়েছে!`);
+    }
+    localStorage.setItem('lgq_hidden_sections', JSON.stringify(hiddenSections));
+    applyHiddenSections();
+    if (document.getElementById('modal-section-visibility').style.display === 'flex') {
+      renderSectionVisibilityList();
+    }
+  }
+
+  // ==========================================
+  // 📊 META PIXEL CONFIG
+  // ==========================================
+  function openMetaPixelModal() {
+    const curPixel = localStorage.getItem('lgq_meta_pixel_id') || (typeof PIXEL_ID !== 'undefined' ? PIXEL_ID : '');
+    document.getElementById('meta-pixel-id-input').value = (curPixel === 'XXXXXXXXXXXXXXXXX') ? '' : curPixel;
+    document.getElementById('modal-meta-pixel').style.display = 'flex';
+  }
+
+  function saveMetaPixelConfig() {
+    const id = document.getElementById('meta-pixel-id-input').value.trim();
+    if (id) {
+      localStorage.setItem('lgq_meta_pixel_id', id);
+      if (typeof fbq !== 'undefined') {
+        fbq('init', id);
+        fbq('track', 'PageView');
+      }
+      showToast('✅ মেটা পিক্সেল সফলভাবে সক্রিয় করা হয়েছে!');
+    }
+    closeModal('modal-meta-pixel');
+  }
+
+  // ==========================================
+  // 💬 LIVE CUSTOMER SUPPORT CHAT
+  // ==========================================
+  let isChatOpen = false;
+
+  function toggleCustomerChat() {
+    isChatOpen = !isChatOpen;
+    const win = document.getElementById('cs-chat-window');
+    const badge = document.querySelector('.cs-unread-badge');
+    win.style.display = isChatOpen ? 'flex' : 'none';
+    if (isChatOpen && badge) badge.style.display = 'none';
+  }
+
+  function sendCustomerMessage() {
+    const input = document.getElementById('cs-user-input');
+    const text = input.value.trim();
+    if (!text) return;
+
+    const body = document.getElementById('cs-messages');
+    
+    // User message bubble
+    const userDiv = document.createElement('div');
+    userDiv.className = 'cs-msg cs-user-msg';
+    userDiv.innerHTML = `<p>${text}</p>`;
+    body.appendChild(userDiv);
+    input.value = '';
+
+    // Scroll to bottom
+    body.scrollTop = body.scrollHeight;
+
+    // Bot instant friendly response with direct WhatsApp button
+    setTimeout(() => {
+      const botDiv = document.createElement('div');
+      botDiv.className = 'cs-msg bot-msg';
+      botDiv.innerHTML = `
+        <p>ধন্যবাদ আপনার বার্তার জন্য! আমাদের বিশেষজ্ঞ কনসালট্যান্ট দ্রুত উত্তর দিতে প্রস্তুত। সরাসরি WhatsApp-এ কথা বলতে নিচের বাটনে ট্যাপ করুন:</p>
+        <a href="https://wa.me/8801301809347?text=${encodeURIComponent(text)}" target="_blank" class="cs-action-btn wa-btn" style="margin-top:6px">
+          <i class="fab fa-whatsapp"></i> WhatsApp-এ সরাসরি কথা বলুন
+        </a>
+      `;
+      body.appendChild(botDiv);
+      body.scrollTop = body.scrollHeight;
+    }, 600);
+  }
+
+  // 9. Auto-restore saved content on load
+  const SITE_VERSION = 'v5_instant_edit';
+  window.addEventListener('DOMContentLoaded', () => {
+    applyHiddenSections();
+
+    // Auto-init saved Meta Pixel if present
+    const savedPixel = localStorage.getItem('lgq_meta_pixel_id');
+    if (savedPixel && typeof fbq !== 'undefined') {
+      fbq('init', savedPixel);
+      fbq('track', 'PageView');
+    }
+
+    if (localStorage.getItem('lgq_site_version') !== SITE_VERSION) {
+      localStorage.removeItem('lgq_saved_website_root');
+      localStorage.setItem('lgq_site_version', SITE_VERSION);
+    }
+    const savedRoot = localStorage.getItem('lgq_saved_website_root');
+    if (savedRoot) {
+      const rootEl = document.getElementById('website-root');
+      if (rootEl) {
+        rootEl.innerHTML = savedRoot;
+        // Re-attach core interactions
+        document.querySelectorAll('.fav').forEach(b => {
+          b.onclick = (e) => { e.stopPropagation(); b.textContent = b.textContent === '🤍' ? '❤️' : '🤍'; };
+        });
+        document.querySelectorAll('.cpill').forEach(p => {
+          p.onclick = () => filterCat(p, p.dataset.cat || 'all');
+        });
+      }
+    }
+    const savedPages = localStorage.getItem('lgq_saved_custom_pages');
+    if (savedPages) {
+      try { Object.assign(customPagesData, JSON.parse(savedPages)); } catch(e){}
+    }
+    const savedColors = localStorage.getItem('lgq_saved_theme_colors');
+    if (savedColors) {
+      try {
+        const c = JSON.parse(savedColors);
+        if (c.primary) {
+          document.documentElement.style.setProperty('--red', c.primary);
+          document.documentElement.style.setProperty('--red2', c.primary);
+        }
+        if (c.secondary) document.documentElement.style.setProperty('--red3', c.secondary);
+        if (c.bg) document.body.style.backgroundColor = c.bg;
+      } catch(e){}
+    }
+
+    // Attach card and doctor upload buttons immediately so they are available on hover
+    setupCardUploadButtons();
+
+    // Enable direct editing and auto-save on website-root
+    const rootEl = document.getElementById('website-root');
+    if (rootEl) {
+      rootEl.addEventListener('input', () => {
+        clearTimeout(window._autoSaveTimer);
+        window._autoSaveTimer = setTimeout(() => {
+          saveAdminChanges(true);
+        }, 800);
+      });
+    }
+  });
+</script>
+</body>
+</html>
